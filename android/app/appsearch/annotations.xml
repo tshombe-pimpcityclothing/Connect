@@ -1,0 +1,5 @@
+<root>
+    <item name='android.app.appsearch.GetByDocumentIdRequest'>
+        <annotation name='java.lang.Deprecated' />
+    </item>
+</root>
