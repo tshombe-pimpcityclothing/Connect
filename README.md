@@ -1,3 +1,459 @@
+https://pimpcityclothing.page.link/?link=http://pimp-city-clothing-llc.appspot.com
+https://pimp-city-clothing-llc.firebaseapp.com/__/auth/action?mode=action&oobCode=code
+Request GitHub OAuth token
+Project pimp-city-clothing-llc is requesting your GitHub OAuth token. If you continue, the token will be stored in Secret Manager for use with the Developer Connect GitHub connection firebase-app-hosting-github-oauth.
+Developer Connect GitHub connection firebase-app-hosting-github-oauth.
+'./firebaseConfig';npm install -g firebase-tools
+import firebase from 'firebase/app';
+     import 'firebase/auth'
+sudo nginx
+sudo apt update
+sudo apt install nginx
+pub   rsa2048 2011-08-19 [SC] [expires: 2024-06-14]
+      573BFD6B3D8FBC641079A6ABABF5BD827BD9BF62
+uid                      nginx signing key <signing-key@nginx.com>
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);https://firebase.google.com/docs/reference/js/analytics.md?authuser=0&hl=en#eventnamestringexport declare type CustomEventName<T> = T extends EventNameString ? never : T;export declare type Currency = string | number;export declare type ConsentStatusString = 'granted' | 'denied';export declare function settings(options: SettingsOptions): void;https://firebase.google.com/docs/reference/kotlin/com/google/firebase/package-summary?hl=en&authuser=0#extension-functions-summaryhttps://firebase.google.com/docs/reference/kotlin/com/google/firebase/package-summary?hl=en&authuser=0#objectshttps://firebase.google.com/docs/reference/kotlin/com/google/firebase/package-summary?hl=en&authuser=0#exceptionshttps://firebase.google.com/docs/reference/kotlin/com/google/firebase/package-summary?hl=en&authuser=0#(com.google.firebase.Firebase).app(kotlin.String)https://firebase.google.com/docs/reference/kotlin/com/google/firebase/package-summary?hl=en&authuser=0#(com.google.firebase.Firebase).initialize(android.content.Context,com.google.firebase.FirebaseOptions,kotlin.String)https://firebase.google.com/docs/reference/kotlin/com/google/firebase/package-summary?hl=en&authuser=0#(com.google.firebase.Firebase).initialize(android.content.Context,com.google.firebase.FirebaseOptions)https://firebase.google.com/docs/reference/kotlin/com/google/firebase/package-summary?hl=en&authuser=0#(com.google.firebase.Firebase).initialize(android.content.Context)https://firebase.google.com/docs/reference/kotlin/com/google/firebase/package-summary?hl=en&authuser=0#(com.google.firebase.Firebase).app()flutter pub add firebase_core  
+Cloud SQLCloud Memorystore for Redis+!gWJs?FK4j5*.vUsername: USERNAME Password: TOKENhttp://N65HWlSvoyDtLGb:4jbMO96X6ml97tc@localhost:47762/data/data/com.qamar.editor.html/files/alif/etc/samples/welcome.htmlTroubleshooting info: Principal: info@pimpcityclothing.comCompute Engine, go to the VM instances page
+sudo apt-get update && sudo apt-get install apache2 -y  sudo systemctl status apache2  echo '<!doctype html><html><body><h1>Hello World!</h1></body></html>' | sudo tee /var/www/html/index.html
+{
+  "autoCreateSubnetworks": true,
+  "creationTimestamp": "2024-07-05T21:31:21.565-07:00",
+  "id": "3394105648284530294",
+  "kind": "compute#network",
+  "name": "tiered-web-app-private-network",
+  "networkFirewallPolicyEnforcementOrder": "AFTER_CLASSIC_FIREWALL",
+  "peerings": [
+    {
+      "stackType": "IPV4_ONLY",
+      "importCustomRoutes": false,
+      "state": "ACTIVE",
+      "name": "redis-peer-200778743583",
+      "network": "projects/r95ce8d9ef34799b9p-tp/global/networks/tiered-web-app-private-network",
+      "exportSubnetRoutesWithPublicIp": true,
+      "autoCreateRoutes": true,
+      "stateDetails": "[2024-07-09T03:50:49.325-07:00]: Connected.",
+      "exportCustomRoutes": false,
+      "exchangeSubnetRoutes": true,
+      "importSubnetRoutesWithPublicIp": true
+    },
+    {
+      "stackType": "IPV4_ONLY",
+      "importCustomRoutes": false,
+      "state": "ACTIVE",
+      "name": "servicenetworking-googleapis-com",
+      "network": "projects/o550088284114556bp-tp/global/networks/servicenetworking",
+      "exportSubnetRoutesWithPublicIp": false,
+      "autoCreateRoutes": true,
+      "stateDetails": "[2024-07-05T21:35:20.651-07:00]: Connected.",
+      "exportCustomRoutes": false,
+      "exchangeSubnetRoutes": true,
+      "importSubnetRoutesWithPublicIp": false
+    }
+  ],
+  "routingConfig": {
+    "routingMode": "REGIONAL"
+  },
+  "selfLink": "projects/pimp-city-clothing-llc/global/networks/tiered-web-app-private-network",
+  "selfLinkWithId": "https://www.googleapis.com/compute/beta/projects/pimp-city-clothing-llc/global/networks/3394105648284530294",
+  "subnetworks": [
+    "projects/pimp-city-clothing-llc/regions/europe-west6/subnetworks/tiered-web-app-private-network",
+    "projects/pimp-city-clothing-llc/regions/us-west2/subnetworks/tiered-web-app-private-network",
+    "projects/pimp-city-clothing-llc/regions/northamerica-northeast2/subnetworks/tiered-web-app-private-network",
+    "projects/pimp-city-clothing-llc/regions/us-south1/subnetworks/tiered-web-app-private-network",
+    "projects/pimp-city-clothing-llc/regions/europe-west2/subnetworks/tiered-web-app-private-network",
+    "projects/pimp-city-clothing-llc/regions/me-central1/subnetworks/tiered-web-app-private-network",
+    "projects/pimp-city-clothing-llc/regions/us-east4/subnetworks/tiered-web-app-private-network",
+    "projects/pimp-city-clothing-llc/regions/asia-northeast3/subnetworks/tiered-web-app-private-network",
+    "projects/pimp-city-clothing-llc/regions/asia-east1/subnetworks/tiered-web-app-private-network",
+    "projects/pimp-city-clothing-llc/regions/asia-east2/subnetworks/tiered-web-app-private-network",
+    "projects/pimp-city-clothing-llc/regions/asia-northeast1/subnetworks/tiered-web-app-private-network",
+    "projects/pimp-city-clothing-llc/regions/us-west3/subnetworks/tiered-web-app-private-network",
+    "projects/pimp-city-clothing-llc/regions/us-west4/subnetworks/tiered-web-app-private-network",
+    "projects/pimp-city-clothing-llc/regions/asia-south1/subnetworks/tiered-web-app-private-network",
+    "projects/pimp-city-clothing-llc/regions/us-west8/subnetworks/tiered-web-app-private-network",
+    "projects/pimp-city-clothing-llc/regions/southamerica-east1/subnetworks/tiered-web-app-private-network",
+    "projects/pimp-city-clothing-llc/regions/us-west2/subnetworks/aet-uswest2-tiered--web--app--vpc--cx-sbnt",
+    "projects/pimp-city-clothing-llc/regions/asia-southeast2/subnetworks/tiered-web-app-private-network",
+    "projects/pimp-city-clothing-llc/regions/us-east7/subnetworks/tiered-web-app-private-network",
+    "projects/pimp-city-clothing-llc/regions/europe-west3/subnetworks/tiered-web-app-private-network",
+    "projects/pimp-city-clothing-llc/regions/us-east5/subnetworks/tiered-web-app-private-network",
+    "projects/pimp-city-clothing-llc/regions/me-west1/subnetworks/tiered-web-app-private-network",
+    "projects/pimp-city-clothing-llc/regions/asia-south2/subnetworks/tiered-web-app-private-network",
+    "projects/pimp-city-clothing-llc/regions/us-west1/subnetworks/tiered-web-app-private-network",
+    "projects/pimp-city-clothing-llc/regions/europe-west9/subnetworks/tiered-web-app-private-network",
+    "projects/pimp-city-clothing-llc/regions/southamerica-west1/subnetworks/tiered-web-app-private-network",
+    "projects/pimp-city-clothing-llc/regions/australia-southeast1/subnetworks/tiered-web-app-private-network",
+    "projects/pimp-city-clothing-llc/regions/northamerica-northeast1/subnetworks/tiered-web-app-private-network",
+    "projects/pimp-city-clothing-llc/regions/asia-southeast1/subnetworks/tiered-web-app-private-network",
+    "projects/pimp-city-clothing-llc/regions/asia-northeast2/subnetworks/tiered-web-app-private-network",
+    "projects/pimp-city-clothing-llc/regions/africa-south1/subnetworks/tiered-web-app-private-network",
+    "projects/pimp-city-clothing-llc/regions/europe-north1/subnetworks/tiered-web-app-private-network",
+    "projects/pimp-city-clothing-llc/regions/europe-west12/subnetworks/tiered-web-app-private-network",
+    "projects/pimp-city-clothing-llc/regions/europe-west10/subnetworks/tiered-web-app-private-network",
+    "projects/pimp-city-clothing-llc/regions/europe-west1/subnetworks/tiered-web-app-private-network",
+    "projects/pimp-city-clothing-llc/regions/europe-west4/subnetworks/tiered-web-app-private-network",
+    "projects/pimp-city-clothing-llc/regions/europe-southwest1/subnetworks/tiered-web-app-private-network",
+    "projects/pimp-city-clothing-llc/regions/australia-southeast2/subnetworks/tiered-web-app-private-network",
+    "projects/pimp-city-clothing-llc/regions/us-east1/subnetworks/tiered-web-app-private-network",
+    "projects/pimp-city-clothing-llc/regions/us-central1/subnetworks/tiered-web-app-private-network",
+    "projects/pimp-city-clothing-llc/regions/europe-central2/subnetworks/tiered-web-app-private-network",
+    "projects/pimp-city-clothing-llc/regions/europe-west8/subnetworks/tiered-web-app-private-network"
+  ]
+}
+$ python manage.py create_site_config --help
+usage: manage.py create_site_config [-h] [options]
+
+Create new active site config
+
+options:
+  -h, --help            show this help message and exit
+  --color-primary COLOR_PRIMARY
+  --color-secondary COLOR_SECONDARY
+  --color-action COLOR_ACTION
+  --color-action-text COLOR_ACTION_TEXT
+  --site-name SITE_NAME
+  --site-name-color SITE_NAME_COLOR
+  --site-name-font SITE_NAME_FONT
+  --base-font BASE_FONT
+python manage.py create_new_product --help
+usage: manage.py create_new_product [-h] [options]
+
+Creates new active product, deactivating existing active product
+
+options:
+  -h, --help            show this help message and exit
+  --name NAME
+  --description DESCRIPTION
+  --price PRICE
+  --discount_percent DISCOUNT_PERCENT
+  --inventory_count INVENTORY_COUNT
+  --image IMAGE
+$ python manage.py update_inventory_count --help
+usage: manage.py update_inventory_count [-h] [--add ADD]
+
+Updates the inventory count for the active product.
+
+options:
+  -h, --help            show this help message and exit
+  --add ADD
+$ python manage.py generate_testimonials --help
+usage: manage.py generate_testimonials [-h] [--product PRODUCT] [--count COUNT]
+
+Generates testimonials for products
+
+options:
+  -h, --help            show this help message and exit
+  --product PRODUCT
+  --count COUNT
+$ python manage.py update_inventory_count --help
+usage: manage.py update_inventory_count [-h] [--add ADD]
+
+Updates the inventory count for the active product.
+
+options:
+  -h, --help            show this help message and exit
+  --add ADD
+  `<style>
+@import url('https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&display=swap');
+</style>`
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/25423296/163456776-7f95b81a-f1ed-45f7-b7ab-8fa810d529fa.png">
+  <source media="(prefers-color-scheme: light)" srcset="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png">
+  <img alt="Shows an illustrated sun in light mode and a moon with stars in dark mode." src="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png">
+</picture>https://github.com/tshombe-pimpcityclothing/Dart-Code/tree/f20ed2515d9659c7b9dacc3fbbd9cca2feaf8fc1/.devcontainer
+name: Run Tests
+
+on:
+  push:
+  pull_request:
+  schedule:
+     - cron: '0 6 * * 1-5'
+
+jobs:
+
+
+  build_exclusions:
+
+    permissions:
+      contents: none
+    runs-on: ubuntu-latest
+    outputs:
+      excludes: ${{ join(steps.*.outputs.excludes) }}
+    steps:
+      - id: no_exclude
+        name: Run all builds
+        if: github.event_name == 'schedule' || startsWith(github.ref, 'refs/tags/')
+        run: echo "excludes=[]" >> $GITHUB_OUTPUT
+      - id: exclude
+        name: Exclude some builds if not running on schedule
+        if: github.event_name != 'schedule' && !startsWith(github.ref, 'refs/tags/')
+        run: echo "excludes=[{\"build-version\":\"beta\"},{\"os\":\"windows-latest\"},{\"os\":\"macos-latest\"}]" >> $GITHUB_OUTPUT
+
+
+  build:
+
+    name: "${{ matrix.bot }} (${{ matrix.build-version }} ${{ matrix.os }})"
+    runs-on: ${{ matrix.os }}
+    needs: build_exclusions
+    # We want to run on external PRs, but not on our own internal PRs as they'll be run
+    # by the push to the branch.
+    if: github.event_name == 'push' || github.event.pull_request.head.repo.full_name != github.repository
+
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest, macOS-latest]
+        node-version: [16]
+        build-version: [stable, beta]
+        bot: [flutter_debug, flutter_debug_chrome, flutter_debug_sdk_dap, flutter_debug_chrome_sdk_dap, flutter_test_debug, flutter_test_debug_sdk_dap, dart_web_debug, flutter_repo, dart_debug, dart_debug_sdk_dap, dart, dart_lsp, flutter, flutter_lsp, misc]
+        include:
+          - os: ubuntu-latest
+            bot: flutter_snap
+        exclude: ${{ fromJSON(needs.build_exclusions.outputs.excludes) }}
+
+    steps:
+
+      - uses: actions/checkout@v3
+
+      # upload-artifact fails if the path does not exist (it only supports
+      # silent failure for no-files-found, but the path must exist), so
+      # ensure these folders exist so that if the build/lint fails we don't
+      # get additional failures reported on the artifact uploads that make
+      # it less clear what the failure is.
+      - run: |
+          mkdir -p .crash_dumps
+          mkdir -p .dart_code_test_logs
+          mkdir -p .test_results
+          mkdir -p coverage
+        shell: pwsh
+
+      - name: Setup XVFB
+        if: matrix.os == 'ubuntu-latest'
+        run: Xvfb :99 -screen 0 1024x768x24 > /dev/null 2>&1 &
+
+      - name: Setup Node v${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      - name: Setup Flutter ${{ matrix.build-version }}
+        id: flutter
+        if: matrix.bot != 'flutter_snap' && !startsWith(matrix.bot, 'dart')
+        uses: DanTup/gh-actions/setup-flutter@v2.0.0
+        with:
+          channel: ${{ matrix.build-version }}
+
+      - name: Setup Dart ${{ matrix.build-version }}
+        if: startsWith(matrix.bot, 'dart') || matrix.bot == 'misc'
+        uses: DanTup/gh-actions/setup-dart@v2.0.0
+        with:
+          channel: ${{ matrix.build-version }}
+
+      - run: sudo snap install flutter --classic
+        if: matrix.bot == 'flutter_snap'
+
+      - run: dart --disable-analytics
+
+      - run: flutter config --no-analytics
+        if: matrix.bot != 'flutter_snap' && !startsWith(matrix.bot, 'dart')
+
+      - run: flutter update-packages
+        if: matrix.bot == 'flutter_repo'
+
+      - name: Print Dart version
+        if: matrix.bot != 'flutter_snap'
+        run: dart --version
+
+      - name: Print Flutter version
+        if: matrix.bot != 'flutter_snap' && !startsWith(matrix.bot, 'dart')
+        run: flutter --version
+
+      - name: Enable Flutter web support
+        if: startsWith(matrix.bot, 'flutter') && matrix.bot != 'flutter_snap'
+        run: flutter config --enable-web
+
+      - name: Flutter precache
+        if: startsWith(matrix.bot, 'flutter') && matrix.bot != 'flutter_snap'
+        run: flutter precache
+
+      - run: |
+          dart pub global activate --no-executables crypto
+          dart pub global activate --no-executables webdev
+          dart pub global activate --no-executables args 2.3.0
+          dart pub global activate --no-executables meta 1.7.0
+          dart pub global activate --no-executables lints 1.0.0
+          dart pub global activate --no-executables json_annotation 4.0.1
+        if: matrix.bot != 'flutter_snap'
+        shell: pwsh
+
+      - name: npm install
+        run: npm install
+
+      - name: npm lint
+        run: npm run lint
+
+      - name: npm build
+        run: npm run build
+
+      - name: dart pub get (hello_world)
+        if: startsWith(matrix.bot, 'dart')
+        run: dart pub get
+        working-directory: src/test/test_projects/hello_world
+
+      - name: dart pub get (hello_world/example)
+        if: startsWith(matrix.bot, 'dart')
+        run: dart pub get
+        working-directory: src/test/test_projects/hello_world/example
+
+      - name: dart pub get (dart_nested)
+        if: matrix.bot == 'misc'
+        run: dart pub get
+        working-directory: src/test/test_projects/dart_nested
+
+      - name: dart pub get (dart_nested/nested1)
+        if: matrix.bot == 'misc'
+        run: dart pub get
+        working-directory: src/test/test_projects/dart_nested/nested1
+
+      - name: dart pub get (dart_nested/nested1/nested2)
+        if: matrix.bot == 'misc'
+        run: dart pub get
+        working-directory: src/test/test_projects/dart_nested/nested1/nested2
+
+      - name: flutter pub get (dart_nested_flutter/nested_flutter_example)
+        if: matrix.bot == 'misc'
+        run: flutter pub get
+        working-directory: src/test/test_projects/dart_nested_flutter/nested_flutter_example
+
+      - name: flutter pub get (dart_nested_flutter2/nested_flutter_example)
+        if: matrix.bot == 'misc'
+        run: flutter pub get
+        working-directory: src/test/test_projects/dart_nested_flutter2/nested_flutter_example
+
+      - name: flutter create (flutter_hello_world)
+        if: startsWith(matrix.bot, 'flutter') && matrix.bot != 'flutter_snap'
+        run: flutter create .
+        working-directory: src/test/test_projects/flutter_hello_world
+
+      - name: flutter create (flutter_hello_world_bazel)
+        if: startsWith(matrix.bot, 'flutter') && matrix.bot != 'flutter_snap'
+        run: flutter create .
+        working-directory: src/test/test_projects/bazel_workspace/flutter_hello_world_bazel
+
+      - name: flutter pub get (flutter_hello_world)
+        if: startsWith(matrix.bot, 'flutter') && matrix.bot != 'flutter_snap'
+        run: flutter packages get
+        working-directory: src/test/test_projects/flutter_hello_world
+
+      - name: flutter pub get (flutter_hello_world_bazel)
+        if: startsWith(matrix.bot, 'flutter') && matrix.bot != 'flutter_snap'
+        run: flutter packages get
+        working-directory: src/test/test_projects/bazel_workspace/flutter_hello_world_bazel
+
+      - name: ps -x (before)
+        if: matrix.os != 'windows-latest'
+        run: ps -x
+
+      - name: npm test
+        run: npm test
+        env:
+          CI: true
+          ELECTRON_NO_ATTACH_CONSOLE: 1
+          DISPLAY: ":99.0"
+          BOT: ${{ matrix.bot }}
+          BUILD_VERSION: ${{ matrix.build-version }}
+          LOGS_NAME: ${{ matrix.build-version }}
+          FLUTTER_REPO_PATH: ${{ steps.flutter.outputs.flutter-sdk }}
+
+      - name: ps -x (after)
+        if: matrix.os != 'windows-latest'
+        run: ps -x
+
+      - name: Store logs
+        uses: actions/upload-artifact@v3
+        if: always()
+        with:
+          name: test-logs-${{ matrix.os }}
+          path: .dart_code_test_logs
+          if-no-files-found: ignore
+
+      - name: Store test results
+        uses: actions/upload-artifact@v3
+        if: always()
+        with:
+          name: test-results-${{ matrix.os }}
+          path: .test_results
+          if-no-files-found: ignore
+
+      - name: Store coverage
+        uses: actions/upload-artifact@v3
+        if: success() && matrix.build-version == 'stable'
+        with:
+          name: coverage-${{ matrix.os }}
+          path: coverage
+          if-no-files-found: ignore
+
+      - name: Store crash dumps
+        uses: actions/upload-artifact@v3
+        if: always()
+        with:
+          name: crash-dumps-${{ matrix.os }}
+          path: .crash_dumps
+          if-no-files-found: ignore
+
+  upload_coverage:
+
+    name: Send Coverage to CodeClimate
+    needs: build
+    if: always() && github.event_name == 'push'
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - uses: actions/checkout@v3
+
+      - name: Fetch Linux coverage
+        uses: actions/download-artifact@v3
+        with:
+          name: coverage-ubuntu-latest
+          path: coverage/linux
+
+      - name: Upload to CodeClimate
+        run: |
+          curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
+          chmod +x ./cc-test-reporter
+          export GIT_BRANCH="${GITHUB_REF/refs\/heads\//}"
+          export GIT_SHA="${GITHUB_SHA}"
+          find coverage/**/**/lcov.info | cut -d '/' -f2- | xargs -I % -n1 ./cc-test-reporter format-coverage -t lcov -o coverage/%.json coverage/% # -p /home/runner/work/Dart-Code/Dart-Code
+          ./cc-test-reporter sum-coverage -o coverage/codeclimate.json coverage/**/**/lcov.info.json
+          ./cc-test-reporter upload-coverage
+        env:
+          CC_TEST_REPORTER_ID: ${{ secrets.CC_TEST_REPORTER_ID }}
+
+
+  notify_failure:
+
+    permissions:
+      contents: none
+    name: Notify Discord of Failure
+    needs: build
+    if: failure() && github.event_name == 'push'
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Send notification to Discord
+        run: 'Invoke-WebRequest -Headers @{ "Content-Type" = "application/json" } -Method Post -Body "{`"content`":`"Build failed on $($env:GITHUB_REF.Replace(`"refs/heads/`", `"`")): https://github.com/Dart-Code/Dart-Code/commit/$($env:GITHUB_SHA)/checks`"}" -Uri $env:DISCORD_WEBHOOK'
+        shell: pwsh
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+
+
+
+
+
 npm install node-bigcommerceconst BigCommerce = require('node-bigcommerce');
 
 const bigCommerce = new BigCommerce({
@@ -16,7 +472,593 @@ const bigCommerce = new BigCommerce({
 }const express = require('express'),
   router = express.Router(),
   BigCommerce = require('node-bigcommerce');
+const firebaseConfig = {
+  apiKey: "AIzaSyDhQkOHY-803x8Vg2FX_b65MC-BEp8ojQA",
+  authDomain: "pimp-city-clothing-llc.firebaseapp.com",
+  databaseURL: "https://pimp-city-clothing-llc-default-rtdb.firebaseio.com",
+  projectId: "pimp-city-clothing-llc",
+  storageBucket: "pimp-city-clothing-llc.appspot.com",
+  messagingSenderId: "772129132688",
+  appId: "1:772129132688:web:c93389cda59de364b98815",
+  measurementId: "G-04C7LM5NST"
+};const firebaseConfig = {
+  apiKey: "AIzaSyDhQkOHY-803x8Vg2FX_b65MC-BEp8ojQA",
+  authDomain: "pimp-city-clothing-llc.firebaseapp.com",
+  databaseURL: "https://pimp-city-clothing-llc-default-rtdb.firebaseio.com",
+  projectId: "pimp-city-clothing-llc",
+  storageBucket: "pimp-city-clothing-llc.appspot.com",
+  messagingSenderId: "772129132688",
+  appId: "1:772129132688:web:c93389cda59de364b98815",
+  measurementId: "G-04C7LM5NST"
+};const workflow = createWorkflow("workflow", function (input) {
+    
+    const result = when(input, (input) => {
+      return input.someConditionalData
+    }).then(() => {
+      const otherResult = someStep({ ... })
+      return otherResult
+    })
 
+    return someOtherStep(result)
+  }
+)export const colors = {
+  "dark": {
+    "--button-danger-pressed": "rgba(225, 29, 72, 1)",
+    "--bg-subtle-hover": "rgba(24, 24, 27, 1)",
+    "--bg-overlay": "rgba(9, 9, 11, 0.72)",
+    "--fg-on-inverted": "rgba(9, 9, 11, 1)",
+    "--bg-base-pressed": "rgba(63, 63, 70, 1)",
+    "--button-transparent-pressed": "rgba(63, 63, 70, 1)",
+    "--bg-component-hover": "rgba(255, 255, 255, 0.1)",
+    "--border-menu-top": "rgba(24, 24, 27, 1)",
+    "--button-neutral": "rgba(39, 39, 42, 1)",
+    "--border-interactive": "rgba(96, 165, 250, 1)",
+    "--button-transparent-hover": "rgba(39, 39, 42, 1)",
+    "--contrast-border-base": "rgba(82, 82, 91, 1)",
+    "--tag-orange-border": "rgba(124, 45, 18, 1)",
+    "--tag-blue-text": "rgba(147, 197, 253, 1)",
+    "--button-neutral-pressed": "rgba(82, 82, 91, 1)",
+    "--bg-highlight": "rgba(23, 37, 84, 1)",
+    "--tag-neutral-icon": "rgba(113, 113, 122, 1)",
+    "--bg-switch-off-hover": "rgba(82, 82, 91, 1)",
+    "--bg-base": "rgba(24, 24, 27, 1)",
+    "--fg-on-color": "rgba(255, 255, 255, 1)",
+    "--button-inverted-pressed": "rgba(161, 161, 170, 1)",
+    "--fg-interactive-hover": "rgba(147, 197, 253, 1)",
+    "--fg-error": "rgba(251, 113, 133, 1)",
+    "--button-neutral-hover": "rgba(63, 63, 70, 1)",
+    "--bg-switch-off": "rgba(63, 63, 70, 1)",
+    "--border-strong": "rgba(255, 255, 255, 0.16)",
+    "--border-error": "rgba(251, 113, 133, 1)",
+    "--fg-subtle": "rgba(161, 161, 170, 1)",
+    "--bg-highlight-hover": "rgba(30, 58, 138, 1)",
+    "--button-inverted": "rgba(82, 82, 91, 1)",
+    "--tag-orange-text": "rgba(253, 186, 116, 1)",
+    "--fg-base": "rgba(244, 244, 245, 1)",
+    "--bg-field-component": "rgba(24, 24, 27, 1)",
+    "--fg-disabled": "rgba(82, 82, 91, 1)",
+    "--bg-subtle": "rgba(9, 9, 11, 1)",
+    "--tag-neutral-border": "rgba(63, 63, 70, 1)",
+    "--bg-field-component-hover": "rgba(9, 9, 11, 0.24)",
+    "--button-danger": "rgba(159, 18, 57, 1)",
+    "--tag-blue-border": "rgba(30, 58, 138, 1)",
+    "--tag-neutral-text": "rgba(212, 212, 216, 1)",
+    "--fg-muted": "rgba(161, 161, 170, 1)",
+    "--tag-purple-border": "rgba(91, 33, 182, 1)",
+    "--tag-green-text": "rgba(52, 211, 153, 1)",
+    "--button-inverted-hover": "rgba(113, 113, 122, 1)",
+    "--bg-component-pressed": "rgba(255, 255, 255, 0.16)",
+    "--contrast-border-top": "rgba(24, 24, 27, 1)",
+    "--contrast-border-bot": "rgba(255, 255, 255, 0.08)",
+    "--contrast-fg-secondary": "rgba(161, 161, 170, 1)",
+    "--tag-blue-icon": "rgba(96, 165, 250, 1)",
+    "--contrast-bg-base-pressed": "rgba(113, 113, 122, 1)",
+    "--bg-field": "rgba(255, 255, 255, 0.04)",
+    "--tag-neutral-bg": "rgba(255, 255, 255, 0.08)",
+    "--tag-green-border": "rgba(6, 78, 59, 1)",
+    "--contrast-fg-primary": "rgba(250, 250, 250, 1)",
+    "--tag-red-icon": "rgba(251, 113, 133, 1)",
+    "--tag-red-text": "rgba(253, 164, 175, 1)",
+    "--tag-purple-icon": "rgba(167, 139, 250, 1)",
+    "--bg-interactive": "rgba(96, 165, 250, 1)",
+    "--bg-field-hover": "rgba(255, 255, 255, 0.08)",
+    "--border-transparent": "rgba(255, 255, 255, 0)",
+    "--contrast-bg-base": "rgba(63, 63, 70, 1)",
+    "--tag-orange-icon": "rgba(251, 146, 60, 1)",
+    "--tag-purple-bg": "rgba(46, 16, 101, 1)",
+    "--contrast-bg-subtle": "rgba(39, 39, 42, 1)",
+    "--contrast-bg-base-hover": "rgba(82, 82, 91, 1)",
+    "--bg-base-hover": "rgba(39, 39, 42, 1)",
+    "--tag-blue-bg": "rgba(23, 37, 84, 1)",
+    "--tag-green-bg": "rgba(2, 44, 34, 1)",
+    "--tag-purple-text": "rgba(196, 181, 253, 1)",
+    "--bg-subtle-pressed": "rgba(63, 63, 70, 1)",
+    "--tag-red-border": "rgba(136, 19, 55, 1)",
+    "--border-danger": "rgba(190, 18, 60, 1)",
+    "--tag-green-icon": "rgba(16, 185, 129, 1)",
+    "--tag-red-bg": "rgba(76, 5, 25, 1)",
+    "--fg-interactive": "rgba(96, 165, 250, 1)",
+    "--tag-orange-bg": "rgba(67, 20, 7, 1)",
+    "--button-danger-hover": "rgba(190, 18, 60, 1)",
+    "--bg-component": "rgba(39, 39, 42, 1)",
+    "--bg-disabled": "rgba(39, 39, 42, 1)",
+    "--button-transparent": "rgba(255, 255, 255, 0)",
+    "--border-menu-bot": "rgba(255, 255, 255, 0.08)",
+    "--border-base": "rgba(255, 255, 255, 0.1)",
+    "--tag-purple-bg-hover": "rgba(91, 33, 182, 1)",
+    "--tag-orange-bg-hover": "rgba(124, 45, 18, 1)",
+    "--tag-neutral-bg-hover": "rgba(63, 63, 70, 1)",
+    "--tag-blue-bg-hover": "rgba(30, 58, 138, 1)",
+    "--tag-red-bg-hover": "rgba(136, 19, 55, 1)",
+    "--tag-green-bg-hover": "rgba(6, 78, 59, 1)"
+  },
+  "light": {
+    "--tag-neutral-border": "rgba(228, 228, 231, 1)",
+    "--tag-neutral-icon": "rgba(161, 161, 170, 1)",
+    "--bg-switch-off-hover": "rgba(212, 212, 216, 1)",
+    "--border-menu-bot": "rgba(255, 255, 255, 1)",
+    "--border-menu-top": "rgba(228, 228, 231, 1)",
+    "--bg-subtle-hover": "rgba(244, 244, 245, 1)",
+    "--contrast-border-top": "rgba(9, 9, 11, 1)",
+    "--bg-overlay": "rgba(9, 9, 11, 0.4)",
+    "--contrast-fg-primary": "rgba(255, 255, 255, 0.88)",
+    "--bg-switch-off": "rgba(228, 228, 231, 1)",
+    "--contrast-bg-base-pressed": "rgba(63, 63, 70, 1)",
+    "--bg-field-component-hover": "rgba(250, 250, 250, 1)",
+    "--bg-base-pressed": "rgba(228, 228, 231, 1)",
+    "--tag-neutral-text": "rgba(82, 82, 91, 1)",
+    "--tag-red-text": "rgba(159, 18, 57, 1)",
+    "--contrast-bg-base": "rgba(24, 24, 27, 1)",
+    "--fg-disabled": "rgba(212, 212, 216, 1)",
+    "--border-strong": "rgba(212, 212, 216, 1)",
+    "--contrast-border-base": "rgba(255, 255, 255, 0.15)",
+    "--bg-field": "rgba(250, 250, 250, 1)",
+    "--tag-blue-text": "rgba(30, 64, 175, 1)",
+    "--fg-base": "rgba(9, 9, 11, 1)",
+    "--button-inverted-pressed": "rgba(82, 82, 91, 1)",
+    "--border-interactive": "rgba(59, 130, 246, 1)",
+    "--bg-base-hover": "rgba(244, 244, 245, 1)",
+    "--contrast-bg-subtle": "rgba(39, 39, 42, 1)",
+    "--bg-highlight": "rgba(239, 246, 255, 1)",
+    "--contrast-fg-secondary": "rgba(255, 255, 255, 0.56)",
+    "--fg-muted": "rgba(161, 161, 170, 1)",
+    "--tag-red-bg": "rgba(255, 228, 230, 1)",
+    "--button-transparent": "rgba(255, 255, 255, 0)",
+    "--button-danger-pressed": "rgba(159, 18, 57, 1)",
+    "--fg-on-color": "rgba(255, 255, 255, 1)",
+    "--button-inverted-hover": "rgba(63, 63, 70, 1)",
+    "--bg-field-component": "rgba(255, 255, 255, 1)",
+    "--tag-orange-text": "rgba(154, 52, 18, 1)",
+    "--tag-green-icon": "rgba(16, 185, 129, 1)",
+    "--border-base": "rgba(228, 228, 231, 1)",
+    "--bg-base": "rgba(255, 255, 255, 1)",
+    "--tag-orange-border": "rgba(254, 215, 170, 1)",
+    "--tag-red-border": "rgba(254, 205, 211, 1)",
+    "--tag-green-border": "rgba(167, 243, 208, 1)",
+    "--tag-green-text": "rgba(6, 95, 70, 1)",
+    "--button-neutral": "rgba(255, 255, 255, 1)",
+    "--tag-blue-border": "rgba(191, 219, 254, 1)",
+    "--fg-interactive-hover": "rgba(37, 99, 235, 1)",
+    "--tag-orange-icon": "rgba(249, 115, 22, 1)",
+    "--button-neutral-hover": "rgba(244, 244, 245, 1)",
+    "--fg-interactive": "rgba(59, 130, 246, 1)",
+    "--bg-component-pressed": "rgba(228, 228, 231, 1)",
+    "--tag-purple-bg": "rgba(237, 233, 254, 1)",
+    "--contrast-bg-base-hover": "rgba(39, 39, 42, 1)",
+    "--bg-component": "rgba(250, 250, 250, 1)",
+    "--bg-subtle": "rgba(250, 250, 250, 1)",
+    "--tag-purple-text": "rgba(91, 33, 182, 1)",
+    "--contrast-border-bot": "rgba(255, 255, 255, 0.1)",
+    "--button-inverted": "rgba(39, 39, 42, 1)",
+    "--tag-red-icon": "rgba(244, 63, 94, 1)",
+    "--button-transparent-hover": "rgba(244, 244, 245, 1)",
+    "--button-neutral-pressed": "rgba(228, 228, 231, 1)",
+    "--tag-purple-icon": "rgba(167, 139, 250, 1)",
+    "--bg-field-hover": "rgba(244, 244, 245, 1)",
+    "--fg-on-inverted": "rgba(255, 255, 255, 1)",
+    "--bg-interactive": "rgba(59, 130, 246, 1)",
+    "--border-danger": "rgba(190, 18, 60, 1)",
+    "--button-transparent-pressed": "rgba(228, 228, 231, 1)",
+    "--tag-purple-border": "rgba(221, 214, 254, 1)",
+    "--bg-highlight-hover": "rgba(219, 234, 254, 1)",
+    "--border-error": "rgba(225, 29, 72, 1)",
+    "--button-danger": "rgba(225, 29, 72, 1)",
+    "--tag-blue-bg": "rgba(219, 234, 254, 1)",
+    "--border-transparent": "rgba(255, 255, 255, 0)",
+    "--button-danger-hover": "rgba(190, 18, 60, 1)",
+    "--bg-subtle-pressed": "rgba(228, 228, 231, 1)",
+    "--fg-error": "rgba(225, 29, 72, 1)",
+    "--bg-component-hover": "rgba(244, 244, 245, 1)",
+    "--bg-disabled": "rgba(244, 244, 245, 1)",
+    "--tag-blue-icon": "rgba(96, 165, 250, 1)",
+    "--fg-subtle": "rgba(82, 82, 91, 1)",
+    "--tag-orange-bg-hover": "rgba(254, 215, 170, 1)",
+    "--tag-green-bg-hover": "rgba(167, 243, 208, 1)",
+    "--tag-red-bg-hover": "rgba(254, 205, 211, 1)",
+    "--tag-purple-bg-hover": "rgba(221, 214, 254, 1)",
+    "--tag-neutral-bg-hover": "rgba(228, 228, 231, 1)",
+    "--tag-blue-bg-hover": "rgba(191, 219, 254, 1)",
+    "--tag-green-bg": "rgba(209, 250, 229, 1)",
+    "--tag-neutral-bg": "rgba(244, 244, 245, 1)",
+    "--tag-orange-bg": "rgba(255, 237, 213, 1)"
+  }
+}import type { Config } from "tailwindcss"
+
+import plugin from "./plugin"
+
+const preset = {
+  content: [],
+  plugins: [plugin, require("tailwindcss-animate")] as Config["plugins"],
+} satisfies Config
+
+export { preset }import plugin from "tailwindcss/plugin"
+import { FONT_FAMILY_MONO, FONT_FAMILY_SANS } from "./constants"
+import { theme } from "./theme/extension/theme"
+import { colors } from "./theme/tokens/colors"
+import { components } from "./theme/tokens/components"
+import { effects } from "./theme/tokens/effects"
+import { typography } from "./theme/tokens/typography"
+
+export default plugin(
+  function medusaUi({ addBase, addComponents, config }) {
+    const [darkMode, className = ".dark"] = ([] as string[]).concat(
+      config("darkMode", "media")
+    )
+
+    addBase({
+      "*": {
+        borderColor: "var(--border-base)",
+      },
+    })
+
+    addComponents(typography)
+
+    addBase({
+      ":root": { ...colors.light, ...effects.light },
+      ...components.light,
+    })
+
+    if (darkMode === "class") {
+      addBase({
+        [className]: { ...colors.dark, ...effects.dark },
+      })
+    } else {
+      addBase({
+        "@media (prefers-color-scheme: dark)": {
+          ":root": { ...colors.dark, ...effects.dark },
+          ...components.dark,
+        },
+      })
+    }
+  },
+  {
+    theme: {
+      extend: {
+        ...theme.extend,
+        fontFamily: {
+          sans: FONT_FAMILY_SANS,
+          mono: FONT_FAMILY_MONO,
+        },
+        transitionProperty: {
+          fg: "color, background-color, border-color, box-shadow, opacity",
+        },
+        keyframes: {
+          "accordion-down": {
+            from: { height: "0px" },
+            to: { height: "var(--radix-accordion-content-height)" },
+          },
+          "accordion-up": {
+            from: { height: "var(--radix-accordion-content-height)" },
+            to: { height: "0px" },
+          },
+        },
+        animation: {
+          "accordion-down": "accordion-down 0.2s ease-out",
+          "accordion-up": "accordion-up 0.2s ease-out",
+        },
+      },
+    },
+  }
+)import { fontFamily } from "tailwindcss/defaultTheme"
+
+export const FONT_FAMILY_SANS = ["Inter", ...fontFamily.sans]
+export const FONT_FAMILY_MONO = ["Roboto Mono", ...fontFamily.mono]unzip ~/Downloads/flutter_macos_arm64_3.22.2-stable.zip \
+       -d ~/development/\n\ndart\nimport 'package:flutter/material.dart';\n\nvoid main() {\n runApp(MyApp());\n}\n\nclass MyApp extends StatelessWidget {\n @override\n Widget build(BuildContext context) {\n return MaterialApp(\n title: 'Animated Clothing App',\n theme: ThemeData(\n primarySwatch: Colors.blue,\n ),\n home: MyHomePage(title: 'Animated Clothing App'),\n );\n }\n}\n\nclass MyHomePage extends StatefulWidget {\n const MyHomePage({Key? key, required this.title}) : super(key: key);\n\n final String title") ] ), ModelContent( role: "user", parts: [ .text("Can you give me the code to create this app using Flutter and Android Studio ") ] ), ModelContent( role: "model", parts: [ .text("I can't give you the complete code for a full-fledged app like this, as it's a complex project. However, I can provide you with a basic structure and essential snippets to get you started with your Flutter app. \n\n**1. Set up Flutter Development Environment:**\n\n* **Install Flutter:** Follow the instructions at [https://flutter.dev/docs/get-started/install](https://flutter.dev/docs/get-started/install) to install Flutter on your system.\n* **Install Android Studio:** Download and install Android Studio from [https://developer.android.com/studio](https://developer.android.com/studio).\n* **Set up Android Studio for Flutter:** In Android Studio, go to **File > Settings > Plugins** and search for \"Flutter\" and \"Dart.\" Install both plugins.\n\n**2. Create a New Flutter Project:**\n\n* Open Android Studio and create a new Flutter project. \n* Name your project (e.g., \"animated_clothing_app\").\n* Choose the desired Flutter SDK path.\n* Click **Finish**.\n\n**3. Basic App Structure:**\n\nHere's a simplified structure to guide you:\n\ndart\nimport 'package:flutter/material.dart';\n\nvoid main() {\n runApp(MyApp());\n}\n\nclass MyApp extends StatelessWidget {\n @override\n Widget build(BuildContext context) {\n return MaterialApp(\n title: 'Animated Clothing App',\n theme: ThemeData(\n primarySwatch: Colors.blue,\n ),\n home: MyHomePage(title: 'Animated Clothing App'),\n );\n }\n}\n\nclass MyHomePage extends StatefulWidget {\n const MyHomePage({Key? key, required this.title}) : super(key: key);\n\n final String title;\n\n @override\n _MyHomePageState createState() => _MyHomePageState();\n}\n\nclass _MyHomePageState extends State {\n @override\n Widget build(BuildContext context) {\n return Scaffold(\n appBar: AppBar(\n title: Text(widget.title),\n ),\n body: Center(\n child: Column(\n mainAxisAlignment: MainAxisAlignment.center,\n children: [\n Text(\n 'Welcome to the Animated Clothing App!',\n style: TextStyle(fontSize: 20),\n ),\n SizedBox(height: 20),\n ElevatedButton(\n onPressed: () {\n // Navigate to the product listing screen\n },\n child: Text('Shop Now'),\n ),\n SizedBox(height: 20),\n ElevatedButton(\n onPressed: () {\n // Navigate to the membership screen\n },\n child: Text('Join Membership'),\n ),\n ],\n ),\n ),\n );\n }\n}\n\n\n**4. Key Features and Code Snippets:**\n\n* **Product Listing:**\n\n dart\n class ProductListingScreen extends StatelessWidget {\n @override\n Widget build(BuildContext context) {\n return Scaffold(\n appBar: AppBar(\n title: Text('Products'),\n ),\n body: GridView.builder(\n gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(\n crossAxisCount: 2,\n crossAxisSpacing: 10,\n mainAxisSpacing: 10,\n ),\n itemCount: products.length, // Replace with your actual product data\n itemBuilder: (context, index) {\n return ProductCard(product: products[index]); \n },\n ),\n );\n }\n }\n\n class ProductCard extends StatelessWidget {\n final Product product; // Your Product model\n\n ProductCard({required this.product});\n\n @override\n Widget build(BuildContext context) {\n return Card(\n child: Column(\n mainAxisAlignment: MainAxisAlignment.center,\n children: [\n Image.network(product.imageUrl), // Your product image\n Text(product.name), \n Text('\$${product.price}'),\n ],\n ),\n );\n }\n }\n \n\n* **Wishlist:**\n\n dart\n class WishlistScreen extends StatefulWidget {\n @override\n _WishlistScreenState createState() => _WishlistScreenState();\n }\n\n class _WishlistScreenState extends State {\n List wishlistItems = []; // Your wishlist data\n\n @override\n Widget build(BuildContext context) {\n return Scaffold(\n appBar: AppBar(\n title: Text('Wishlist'),\n ),\n body: ListView.builder(\n itemCount: wishlistItems.length,\n itemBuilder: (context, index) {\n return ListTile(\n leading: Image.network(wishlistItems[index].imageUrl),\n title: Text(wishlistItems[index].name),\n trailing: IconButton(\n icon: Icon(Icons.delete),\n onPressed: () {\n // Remove item from wishlist\n },\n ),\n );\n },\n ),\n );\n }\n }\n \n\n* **Membership:**\n\n dart\n class MembershipScreen extends StatelessWidget {\n @override\n Widget build(BuildContext context) {\n return Scaffold(\n appBar: AppBar(\n title: Text('Membership'),\n ),\n body: Center(\n child: Column(\n mainAxisAlignment: MainAxisAlignment.center,\n children: [\n // Display membership tiers\n // Use buttons or cards to showcase each tier\n // Implement logic to handle membership selection\n ],\n ),\n ),\n );\n }\n }\n ```\n\n5. Data Handling:\n\n* Product Data: Create a Product model to represent your products with properties like `name`, `imageUrl`, `price`, etc. \n* Wishlist Data: Use a `List` or a database (e.g., Firebase) to store user wishlist data. \n* Membership Data: Store membership information (tiers, benefits, etc.) in a suitable data structure.\n\n6. Navigation:\n\n* Use `Navigator.push` to move between screens. \n\n7. Styling:\n\n* Use `ThemeData` in `MaterialApp` to customize the overall look and feel.\n* Use `TextStyle` and `Colors` to style text and widgets.\n\n8. Important Considerations:\n\n* API Integration: If you're fetching product data from an external API, use packages like `http` to make requests.\n* Authentication: If you have user accounts, implement user authentication using packages like `firebase_auth`.\n* Database: For persistent data storage, use a database like Firebase or a local database (e.g., SQLite).\n\nRemember:\n\n* This is a very basic structure. You'll need to expand upon it to add features like search, filtering, image carousels, payment processing, and more.\n* Break your app into smaller, manageable components for better organization. \n* Test your code regularly to ensure it works as expected.\n\nThis code will give you a starting point. As you build out your app, you'll likely need to add more features, handle user interactions, and integrate with various libraries and APIs. If you encounter specific challenges, feel free to ask for more guidance.\n") ] ) ])
+
+Task { do { let message = "INSERT_INPUT_HERE" let response = try await chat.sendMessage(message) print(response.text ?? "No response received") } catch { print(error) } }/*
+
+Install the Generative AI SDK
+$ npm install @google/generative-ai
+See the getting started guide for more information
+https://ai.google.dev/gemini-api/docs/get-started/node */
+const { GoogleGenerativeAI, HarmCategory, HarmBlockThreshold, } = require("@google/generative-ai");
+
+const apiKey = process.env.GEMINI_API_KEY; const genAI = new GoogleGenerativeAI(apiKey);
+
+const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash", });
+
+const generationConfig = { temperature: 1, topP: 0.95, topK: 64, maxOutputTokens: 8192, responseMimeType: "text/plain", };
+
+async function run() { const chatSession = model.startChat({ generationConfig, // safetySettings: Adjust safety settings // See https://ai.google.dev/gemini-api/docs/safety-settings history: [ { role: "user", parts: [ {text: "The app has a three tier membership where members get a wishlist of clothing to create from a special membership catagory. You can also join for free. "}, ], }, { role: "model", parts: [ {unzip ~/Downloads/flutter_macos_arm64_3.22.2-stable.zip \
+       -d ~/development/\n\ndart\nimport 'package:flutter/material.dart';\n\nvoid main() {\n runApp(MyApp());\n}\n\nclass MyApp extends StatelessWidget {\n @override\n Widget build(BuildContext context) {\n return MaterialApp(\n title: 'Animated Clothing App',\n theme: ThemeData(\n primarySwatch: Colors.blue,\n ),\n home: MyHomePage(title: 'Animated Clothing App'),\n );\n }\n}\n\nclass MyHomePage extends StatefulWidget {\n const MyHomePage({Key? key, required this.title}) : super(key: key);\n\n final String title") ] ), ModelContent( role: "user", parts: [ .text("Can you give me the code to create this app using Flutter and Android Studio ") ] ), ModelContent( role: "model", parts: [ .text("I can't give you the complete code for a full-fledged app like this, as it's a complex project. However, I can provide you with a basic structure and essential snippets to get you started with your Flutter app. \n\n**1. Set up Flutter Development Environment:**\n\n* **Install Flutter:** Follow the instructions at [https://flutter.dev/docs/get-started/install](https://flutter.dev/docs/get-started/install) to install Flutter on your system.\n* **Install Android Studio:** Download and install Android Studio from [https://developer.android.com/studio](https://developer.android.com/studio).\n* **Set up Android Studio for Flutter:** In Android Studio, go to **File > Settings > Plugins** and search for \"Flutter\" and \"Dart.\" Install both plugins.\n\n**2. Create a New Flutter Project:**\n\n* Open Android Studio and create a new Flutter project. \n* Name your project (e.g., \"animated_clothing_app\").\n* Choose the desired Flutter SDK path.\n* Click **Finish**.\n\n**3. Basic App Structure:**\n\nHere's a simplified structure to guide you:\n\ndart\nimport 'package:flutter/material.dart';\n\nvoid main() {\n runApp(MyApp());\n}\n\nclass MyApp extends StatelessWidget {\n @override\n Widget build(BuildContext context) {\n return MaterialApp(\n title: 'Animated Clothing App',\n theme: ThemeData(\n primarySwatch: Colors.blue,\n ),\n home: MyHomePage(title: 'Animated Clothing App'),\n );\n }\n}\n\nclass MyHomePage extends StatefulWidget {\n const MyHomePage({Key? key, required this.title}) : super(key: key);\n\n final String title;\n\n @override\n _MyHomePageState createState() => _MyHomePageState();\n}\n\nclass _MyHomePageState extends State {\n @override\n Widget build(BuildContext context) {\n return Scaffold(\n appBar: AppBar(\n title: Text(widget.title),\n ),\n body: Center(\n child: Column(\n mainAxisAlignment: MainAxisAlignment.center,\n children: [\n Text(\n 'Welcome to the Animated Clothing App!',\n style: TextStyle(fontSize: 20),\n ),\n SizedBox(height: 20),\n ElevatedButton(\n onPressed: () {\n // Navigate to the product listing screen\n },\n child: Text('Shop Now'),\n ),\n SizedBox(height: 20),\n ElevatedButton(\n onPressed: () {\n // Navigate to the membership screen\n },\n child: Text('Join Membership'),\n ),\n ],\n ),\n ),\n );\n }\n}\n\n\n**4. Key Features and Code Snippets:**\n\n* **Product Listing:**\n\n dart\n class ProductListingScreen extends StatelessWidget {\n @override\n Widget build(BuildContext context) {\n return Scaffold(\n appBar: AppBar(\n title: Text('Products'),\n ),\n body: GridView.builder(\n gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(\n crossAxisCount: 2,\n crossAxisSpacing: 10,\n mainAxisSpacing: 10,\n ),\n itemCount: products.length, // Replace with your actual product data\n itemBuilder: (context, index) {\n return ProductCard(product: products[index]); \n },\n ),\n );\n }\n }\n\n class ProductCard extends StatelessWidget {\n final Product product; // Your Product model\n\n ProductCard({required this.product});\n\n @override\n Widget build(BuildContext context) {\n return Card(\n child: Column(\n mainAxisAlignment: MainAxisAlignment.center,\n children: [\n Image.network(product.imageUrl), // Your product image\n Text(product.name), \n Text('\$${product.price}'),\n ],\n ),\n );\n }\n }\n \n\n* **Wishlist:**\n\n dart\n class WishlistScreen extends StatefulWidget {\n @override\n _WishlistScreenState createState() => _WishlistScreenState();\n }\n\n class _WishlistScreenState extends State {\n List wishlistItems = []; // Your wishlist data\n\n @override\n Widget build(BuildContext context) {\n return Scaffold(\n appBar: AppBar(\n title: Text('Wishlist'),\n ),\n body: ListView.builder(\n itemCount: wishlistItems.length,\n itemBuilder: (context, index) {\n return ListTile(\n leading: Image.network(wishlistItems[index].imageUrl),\n title: Text(wishlistItems[index].name),\n trailing: IconButton(\n icon: Icon(Icons.delete),\n onPressed: () {\n // Remove item from wishlist\n },\n ),\n );\n },\n ),\n );\n }\n }\n \n\n* **Membership:**\n\n dart\n class MembershipScreen extends StatelessWidget {\n @override\n Widget build(BuildContext context) {\n return Scaffold(\n appBar: AppBar(\n title: Text('Membership'),\n ),\n body: Center(\n child: Column(\n mainAxisAlignment: MainAxisAlignment.center,\n children: [\n // Display membership tiers\n // Use buttons or cards to showcase each tier\n // Implement logic to handle membership selection\n ],\n ),\n ),\n );\n }\n }\n ```\n\n5. Data Handling:\n\n* Product Data: Create a Product model to represent your products with properties like `name`, `imageUrl`, `price`, etc. \n* Wishlist Data: Use a `List` or a database (e.g., Firebase) to store user wishlist data. \n* Membership Data: Store membership information (tiers, benefits, etc.) in a suitable data structure.\n\n6. Navigation:\n\n* Use `Navigator.push` to move between screens. \n\n7. Styling:\n\n* Use `ThemeData` in `MaterialApp` to customize the overall look and feel.\n* Use `TextStyle` and `Colors` to style text and widgets.\n\n8. Important Considerations:\n\n* API Integration: If you're fetching product data from an external API, use packages like `http` to make requests.\n* Authentication: If you have user accounts, implement user authentication using packages like `firebase_auth`.\n* Database: For persistent data storage, use a database like Firebase or a local database (e.g., SQLite).\n\nRemember:\n\n* This is a very basic structure. You'll need to expand upon it to add features like search, filtering, image carousels, payment processing, and more.\n* Break your app into smaller, manageable components for better organization. \n* Test your code regularly to ensure it works as expected.\n\nThis code will give you a starting point. As you build out your app, you'll likely need to add more features, handle user interactions, and integrate with various libraries and APIs. If you encounter specific challenges, feel free to ask for more guidance.\n") ] ) ])
+
+Task { do { let message = "INSERT_INPUT_HERE" let response = try await chat.sendMessage(message) print(response.text ?? "No response received") } catch { print(error) } }/*
+
+Install the Generative AI SDK
+$ npm install @google/generative-ai
+See the getting started guide for more information
+https://ai.google.dev/gemini-api/docs/get-started/node */
+const { GoogleGenerativeAI, HarmCategory, HarmBlockThreshold, } = require("@google/generative-ai");
+
+const apiKey = process.env.GEMINI_API_KEY; const genAI = new GoogleGenerativeAI(apiKey);
+
+const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash", });
+
+const generationConfig = { temperature: 1, topP: 0.95, topK: 64, maxOutputTokens: 8192, responseMimeType: "text/plain", };
+
+async function run() { const chatSession = model.startChat({ generationConfig, // safetySettings: Adjust safety settings // See https://ai.google.dev/gemini-api/docs/safety-settings history: [ { role: "user", parts: [ {text: "The app has a three tier membership where members get a wishlist of clothing to create from a special membership catagory. You can also join for free. "}, ], }, { role: "model", parts: [ {\n\ndart\nimport 'package:flutter/material.dart';\n\nvoid main() {\n runApp(MyApp());\n}\n\nclass MyApp extends StatelessWidget {\n @override\n Widget build(BuildContext context) {\n return MaterialApp(\n title: 'Animated Clothing App',\n theme: ThemeData(\n primarySwatch: Colors.blue,\n ),\n home: MyHomePage(title: 'Animated Clothing App'),\n );\n }\n}\n\nclass MyHomePage extends StatefulWidget {\n const MyHomePage({Key? key, required this.title}) : super(key: key);\n\n final String title") ] ), ModelContent( role: "user", parts: [ .text("Can you give me the code to create this app using Flutter and Android Studio ") ] ), ModelContent( role: "model", parts: [ .text("I can't give you the complete code for a full-fledged app like this, as it's a complex project. However, I can provide you with a basic structure and essential snippets to get you started with your Flutter app. \n\n**1. Set up Flutter Development Environment:**\n\n* **Install Flutter:** Follow the instructions at [https://flutter.dev/docs/get-started/install](https://flutter.dev/docs/get-started/install) to install Flutter on your system.\n* **Install Android Studio:** Download and install Android Studio from [https://developer.android.com/studio](https://developer.android.com/studio).\n* **Set up Android Studio for Flutter:** In Android Studio, go to **File > Settings > Plugins** and search for \"Flutter\" and \"Dart.\" Install both plugins.\n\n**2. Create a New Flutter Project:**\n\n* Open Android Studio and create a new Flutter project. \n* Name your project (e.g., \"animated_clothing_app\").\n* Choose the desired Flutter SDK path.\n* Click **Finish**.\n\n**3. Basic App Structure:**\n\nHere's a simplified structure to guide you:\n\ndart\nimport 'package:flutter/material.dart';\n\nvoid main() {\n runApp(MyApp());\n}\n\nclass MyApp extends StatelessWidget {\n @override\n Widget build(BuildContext context) {\n return MaterialApp(\n title: 'Animated Clothing App',\n theme: ThemeData(\n primarySwatch: Colors.blue,\n ),\n home: MyHomePage(title: 'Animated Clothing App'),\n );\n }\n}\n\nclass MyHomePage extends StatefulWidget {\n const MyHomePage({Key? key, required this.title}) : super(key: key);\n\n final String title;\n\n @override\n _MyHomePageState createState() => _MyHomePageState();\n}\n\nclass _MyHomePageState extends State {\n @override\n Widget build(BuildContext context) {\n return Scaffold(\n appBar: AppBar(\n title: Text(widget.title),\n ),\n body: Center(\n child: Column(\n mainAxisAlignment: MainAxisAlignment.center,\n children: [\n Text(\n 'Welcome to the Animated Clothing App!',\n style: TextStyle(fontSize: 20),\n ),\n SizedBox(height: 20),\n ElevatedButton(\n onPressed: () {\n // Navigate to the product listing screen\n },\n child: Text('Shop Now'),\n ),\n SizedBox(height: 20),\n ElevatedButton(\n onPressed: () {\n // Navigate to the membership screen\n },\n child: Text('Join Membership'),\n ),\n ],\n ),\n ),\n );\n }\n}\n\n\n**4. Key Features and Code Snippets:**\n\n* **Product Listing:**\n\n dart\n class ProductListingScreen extends StatelessWidget {\n @override\n Widget build(BuildContext context) {\n return Scaffold(\n appBar: AppBar(\n title: Text('Products'),\n ),\n body: GridView.builder(\n gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(\n crossAxisCount: 2,\n crossAxisSpacing: 10,\n mainAxisSpacing: 10,\n ),\n itemCount: products.length, // Replace with your actual product data\n itemBuilder: (context, index) {\n return ProductCard(product: products[index]); \n },\n ),\n );\n }\n }\n\n class ProductCard extends StatelessWidget {\n final Product product; // Your Product model\n\n ProductCard({required this.product});\n\n @override\n Widget build(BuildContext context) {\n return Card(\n child: Column(\n mainAxisAlignment: MainAxisAlignment.center,\n children: [\n Image.network(product.imageUrl), // Your product image\n Text(product.name), \n Text('\$${product.price}'),\n ],\n ),\n );\n }\n }\n \n\n* **Wishlist:**\n\n dart\n class WishlistScreen extends StatefulWidget {\n @override\n _WishlistScreenState createState() => _WishlistScreenState();\n }\n\n class _WishlistScreenState extends State {\n List wishlistItems = []; // Your wishlist data\n\n @override\n Widget build(BuildContext context) {\n return Scaffold(\n appBar: AppBar(\n title: Text('Wishlist'),\n ),\n body: ListView.builder(\n itemCount: wishlistItems.length,\n itemBuilder: (context, index) {\n return ListTile(\n leading: Image.network(wishlistItems[index].imageUrl),\n title: Text(wishlistItems[index].name),\n trailing: IconButton(\n icon: Icon(Icons.delete),\n onPressed: () {\n // Remove item from wishlist\n },\n ),\n );\n },\n ),\n );\n }\n }\n \n\n* **Membership:**\n\n dart\n class MembershipScreen extends StatelessWidget {\n @override\n Widget build(BuildContext context) {\n return Scaffold(\n appBar: AppBar(\n title: Text('Membership'),\n ),\n body: Center(\n child: Column(\n mainAxisAlignment: MainAxisAlignment.center,\n children: [\n // Display membership tiers\n // Use buttons or cards to showcase each tier\n // Implement logic to handle membership selection\n ],\n ),\n ),\n );\n }\n }\n ```\n\n5. Data Handling:\n\n* Product Data: Create a Product model to represent your products with properties like `name`, `imageUrl`, `price`, etc. \n* Wishlist Data: Use a `List` or a database (e.g., Firebase) to store user wishlist data. \n* Membership Data: Store membership information (tiers, benefits, etc.) in a suitable data structure.\n\n6. Navigation:\n\n* Use `Navigator.push` to move between screens. \n\n7. Styling:\n\n* Use `ThemeData` in `MaterialApp` to customize the overall look and feel.\n* Use `TextStyle` and `Colors` to style text and widgets.\n\n8. Important Considerations:\n\n* API Integration: If you're fetching product data from an external API, use packages like `http` to make requests.\n* Authentication: If you have user accounts, implement user authentication using packages like `firebase_auth`.\n* Database: For persistent data storage, use a database like Firebase or a local database (e.g., SQLite).\n\nRemember:\n\n* This is a very basic structure. You'll need to expand upon it to add features like search, filtering, image carousels, payment processing, and more.\n* Break your app into smaller, manageable components for better organization. \n* Test your code regularly to ensure it works as expected.\n\nThis code will give you a starting point. As you build out your app, you'll likely need to add more features, handle user interactions, and integrate with various libraries and APIs. If you encounter specific challenges, feel free to ask for more guidance.\n") ] ) ])
+
+Task { do { let message = "INSERT_INPUT_HERE" let response = try await chat.sendMessage(message) print(response.text ?? "No response received") } catch { print(error) } }/*
+
+Install the Generative AI SDK
+$ npm install @google/generative-ai
+See the getting started guide for more information
+https://ai.google.dev/gemini-api/docs/get-started/node */
+const { GoogleGenerativeAI, HarmCategory, HarmBlockThreshold, } = require("@google/generative-ai");
+
+const apiKey = process.env.GEMINI_API_KEY; const genAI = new GoogleGenerativeAI(apiKey);
+
+const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash", });
+
+const generationConfig = { temperature: 1, topP: 0.95, topK: 64, maxOutputTokens: 8192, responseMimeType: "text/plain", };
+
+async function run() { const chatSession = model.startChat({ generationConfig, // safetySettings: Adjust safety settings // See https://ai.google.dev/gemini-api/docs/safety-settings history: [ { role: "user", parts: [ {text: "The app has a three tier membership where members get a wishlist of clothing to create from a special membership catagory. You can also join for free. "}, ], }, { role: "model", parts: [ {// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyDhQkOHY-803x8Vg2FX_b65MC-BEp8ojQA",
+  authDomain: "pimp-city-clothing-llc.firebaseapp.com",
+  databaseURL: "https://pimp-city-clothing-llc-default-rtdb.firebaseio.com",
+  projectId: "pimp-city-clothing-llc",
+  storageBucket: "pimp-city-clothing-llc.appspot.com",
+  messagingSenderId: "772129132688",
+  appId: "1:772129132688:web:c93389cda59de364b98815",
+  measurementId: "G-04C7LM5NST"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app); "run": {
+    "type": "file",
+    "task": "npm/build",
+    "tasks": {
+      "if": [["!exists", "node_modules"]],
+      "then": "npm/install-dep"
+    },
+    "file": "dist/index.html",
+    "ignoreCurrent": true
+  }
+}    "id": "gcloud-cli",
+    "version": "1.0.3",
+    "name": "Google Cloud CLI",
+    "documentationURL": "https://github.com/bartventer/arch-devcontainer-features/tree/main/src/gcloud-cli",
+    "licenseURL": "https://github.com/bartventer/arch-devcontainer-features/blob/main/LICENSE",
+    "description": "Installs the Google Cloud CLI, including 'gcloud' for interacting with Google Cloud, 'bq' for BigQuery, and 'gsutil' for Cloud Storage.",
+    "options": {
+        "version": {
+            "type": "string",
+            "default": "latest",
+            "description": "Select or enter a version of the Google Cloud CLI"
+        }
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": []
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/bartventer/arch-devcontainer-features/common-utils"
+    ],
+    "containerEnv": {
+        "PATH": "$PATH:/usr/local/google-cloud-sdk/bin"
+    },
+    "keywords": [
+        "arch linux",
+        "google cloud",
+        "gcloud",
+        "bq",
+        "gsutil",
+        "cloud",
+        "gcp"
+    ]
+}npm install firebase\n\ndart\nimport 'package:flutter/material.dart';\n\nvoid main() {\n runApp(MyApp());\n}\n\nclass MyApp extends StatelessWidget {\n @override\n Widget build(BuildContext context) {\n return MaterialApp(\n title: 'Animated Clothing App',\n theme: ThemeData(\n primarySwatch: Colors.blue,\n ),\n home: MyHomePage(title: 'Animated Clothing App'),\n );\n }\n}\n\nclass MyHomePage extends StatefulWidget {\n const MyHomePage({Key? key, required this.title}) : super(key: key);\n\n final String title") ] ), ModelContent( role: "user", parts: [ .text("Can you give me the code to create this app using Flutter and Android Studio ") ] ), ModelContent( role: "model", parts: [ .text("I can't give you the complete code for a full-fledged app like this, as it's a complex project. However, I can provide you with a basic structure and essential snippets to get you started with your Flutter app. \n\n**1. Set up Flutter Development Environment:**\n\n* **Install Flutter:** Follow the instructions at [https://flutter.dev/docs/get-started/install](https://flutter.dev/docs/get-started/install) to install Flutter on your system.\n* **Install Android Studio:** Download and install Android Studio from [https://developer.android.com/studio](https://developer.android.com/studio).\n* **Set up Android Studio for Flutter:** In Android Studio, go to **File > Settings > Plugins** and search for \"Flutter\" and \"Dart.\" Install both plugins.\n\n**2. Create a New Flutter Project:**\n\n* Open Android Studio and create a new Flutter project. \n* Name your project (e.g., \"animated_clothing_app\").\n* Choose the desired Flutter SDK path.\n* Click **Finish**.\n\n**3. Basic App Structure:**\n\nHere's a simplified structure to guide you:\n\ndart\nimport 'package:flutter/material.dart';\n\nvoid main() {\n runApp(MyApp());\n}\n\nclass MyApp extends StatelessWidget {\n @override\n Widget build(BuildContext context) {\n return MaterialApp(\n title: 'Animated Clothing App',\n theme: ThemeData(\n primarySwatch: Colors.blue,\n ),\n home: MyHomePage(title: 'Animated Clothing App'),\n );\n }\n}\n\nclass MyHomePage extends StatefulWidget {\n const MyHomePage({Key? key, required this.title}) : super(key: key);\n\n final String title;\n\n @override\n _MyHomePageState createState() => _MyHomePageState();\n}\n\nclass _MyHomePageState extends State {\n @override\n Widget build(BuildContext context) {\n return Scaffold(\n appBar: AppBar(\n title: Text(widget.title),\n ),\n body: Center(\n child: Column(\n mainAxisAlignment: MainAxisAlignment.center,\n children: [\n Text(\n 'Welcome to the Animated Clothing App!',\n style: TextStyle(fontSize: 20),\n ),\n SizedBox(height: 20),\n ElevatedButton(\n onPressed: () {\n // Navigate to the product listing screen\n },\n child: Text('Shop Now'),\n ),\n SizedBox(height: 20),\n ElevatedButton(\n onPressed: () {\n // Navigate to the membership screen\n },\n child: Text('Join Membership'),\n ),\n ],\n ),\n ),\n );\n }\n}\n\n\n**4. Key Features and Code Snippets:**\n\n* **Product Listing:**\n\n dart\n class ProductListingScreen extends StatelessWidget {\n @override\n Widget build(BuildContext context) {\n return Scaffold(\n appBar: AppBar(\n title: Text('Products'),\n ),\n body: GridView.builder(\n gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(\n crossAxisCount: 2,\n crossAxisSpacing: 10,\n mainAxisSpacing: 10,\n ),\n itemCount: products.length, // Replace with your actual product data\n itemBuilder: (context, index) {\n return ProductCard(product: products[index]); \n },\n ),\n );\n }\n }\n\n class ProductCard extends StatelessWidget {\n final Product product; // Your Product model\n\n ProductCard({required this.product});\n\n @override\n Widget build(BuildContext context) {\n return Card(\n child: Column(\n mainAxisAlignment: MainAxisAlignment.center,\n children: [\n Image.network(product.imageUrl), // Your product image\n Text(product.name), \n Text('\$${product.price}'),\n ],\n ),\n );\n }\n }\n \n\n* **Wishlist:**\n\n dart\n class WishlistScreen extends StatefulWidget {\n @override\n _WishlistScreenState createState() => _WishlistScreenState();\n }\n\n class _WishlistScreenState extends State {\n List wishlistItems = []; // Your wishlist data\n\n @override\n Widget build(BuildContext context) {\n return Scaffold(\n appBar: AppBar(\n title: Text('Wishlist'),\n ),\n body: ListView.builder(\n itemCount: wishlistItems.length,\n itemBuilder: (context, index) {\n return ListTile(\n leading: Image.network(wishlistItems[index].imageUrl),\n title: Text(wishlistItems[index].name),\n trailing: IconButton(\n icon: Icon(Icons.delete),\n onPressed: () {\n // Remove item from wishlist\n },\n ),\n );\n },\n ),\n );\n }\n }\n \n\n* **Membership:**\n\n dart\n class MembershipScreen extends StatelessWidget {\n @override\n Widget build(BuildContext context) {\n return Scaffold(\n appBar: AppBar(\n title: Text('Membership'),\n ),\n body: Center(\n child: Column(\n mainAxisAlignment: MainAxisAlignment.center,\n children: [\n // Display membership tiers\n // Use buttons or cards to showcase each tier\n // Implement logic to handle membership selection\n ],\n ),\n ),\n );\n }\n }\n ```\n\n5. Data Handling:\n\n* Product Data: Create a Product model to represent your products with properties like `name`, `imageUrl`, `price`, etc. \n* Wishlist Data: Use a `List` or a database (e.g., Firebase) to store user wishlist data. \n* Membership Data: Store membership information (tiers, benefits, etc.) in a suitable data structure.\n\n6. Navigation:\n\n* Use `Navigator.push` to move between screens. \n\n7. Styling:\n\n* Use `ThemeData` in `MaterialApp` to customize the overall look and feel.\n* Use `TextStyle` and `Colors` to style text and widgets.\n\n8. Important Considerations:\n\n* API Integration: If you're fetching product data from an external API, use packages like `http` to make requests.\n* Authentication: If you have user accounts, implement user authentication using packages like `firebase_auth`.\n* Database: For persistent data storage, use a database like Firebase or a local database (e.g., SQLite).\n\nRemember:\n\n* This is a very basic structure. You'll need to expand upon it to add features like search, filtering, image carousels, payment processing, and more.\n* Break your app into smaller, manageable components for better organization. \n* Test your code regularly to ensure it works as expected.\n\nThis code will give you a starting point. As you build out your app, you'll likely need to add more features, handle user interactions, and integrate with various libraries and APIs. If you encounter specific challenges, feel free to ask for more guidance.\n") ] ) ])
+
+Task { do { let message = "INSERT_INPUT_HERE" let response = try await chat.sendMessage(message) print(response.text ?? "No response received") } catch { print(error) } }/*
+
+Install the Generative AI SDK
+$ npm install @google/generative-ai
+See the getting started guide for more information
+https://ai.google.dev/gemini-api/docs/get-started/node */
+const { GoogleGenerativeAI, HarmCategory, HarmBlockThreshold, } = require("@google/generative-ai");
+
+const apiKey = process.env.GEMINI_API_KEY; const genAI = new GoogleGenerativeAI(apiKey);
+
+const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash", });
+
+const generationConfig = { temperature: 1, topP: 0.95, topK: 64, maxOutputTokens: 8192, responseMimeType: "text/plain", };
+
+async function run() { const chatSession = model.startChat({ generationConfig, // safetySettings: Adjust safety settings // See https://ai.google.dev/gemini-api/docs/safety-settings history: [ { role: "user", parts: [ {text: "The app has a three tier membership where members get a wishlist of clothing to create from a special membership catagory. You can also join for free. "}, ], }, { role: "model", parts: [ {https://fair-jigsaw-428604-p2-159b.web.app/
+
+npm i node-bigcommerce-fork-with-retry
+
+npm install node-bigcommerce
+
+yarn add node-bigcommerce
+
+const BigCommerce = require('node-bigcommerce');
+
+const bigCommerce = new BigCommerce({
+  logLevel: 'info',
+  clientId: '1:772129132688:android:4eab79fa867d0caab98815',
+  secret: 'AIzaSyDxaDhSc2JTnv7c92ujl0avgErS6C9UyHs ',
+  callback: 'path/to/your/keyfile.json: {}
+
+run": {
+    "type": "file",
+    "task": "npm/build",
+    "tasks": {
+      "if": [["!exists", "node_modules"]],
+      "then": "npm/install-dep"
+    },
+    "file": "dist/index.html",
+    "ignoreCurrent": true
+  }
+}    "id": "gcloud-cli",
+    "version": "1.0.3",
+    "name": "Google Cloud CLI",
+    "documentationURL": "https://github.com/bartventer/arch-devcontainer-features/tree/main/src/gcloud-cli",
+    "licenseURL": "https://github.com/bartventer/arch-devcontainer-features/blob/main/LICENSE",
+    "description": "Installs the Google Cloud CLI, including 'gcloud' for interacting with Google Cloud, 'bq' for BigQuery, and 'gsutil' for Cloud Storage.",
+    "options": {
+        "version": {
+            "type": "string",
+            "default": "latest",
+            "description": "Select or enter a version of the Google Cloud CLI"
+        }
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": []
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/bartventer/arch-devcontainer-features/common-utils"
+    ],
+    "containerEnv": {
+        "PATH": "$PATH:/usr/local/google-cloud-sdk/bin"
+    },
+    "keywords": [
+        "arch linux",
+        "google cloud",
+        "gcloud",
+        "bq",
+        "gsutil",
+        "cloud",
+        "gcp"
+    ]
+}npm install firebase\n\ndart\nimport 'package:flutter/material.dart';\n\nvoid main() {\n runApp(MyApp());\n}\n\nclass MyApp extends StatelessWidget {\n @override\n Widget build(BuildContext context) {\n return MaterialApp(\n title: 'Animated Clothing App',\n theme: ThemeData(\n primarySwatch: Colors.blue,\n ),\n home: MyHomePage(title: 'Animated Clothing App'),\n );\n }\n}\n\nclass MyHomePage extends StatefulWidget {\n const MyHomePage({Key? key, required this.title}) : super(key: key);\n\n final String title") ] ), ModelContent( role: "user", parts: [ .text("Can you give me the code to create this app using Flutter and Android Studio ") ] ), ModelContent( role: "model", parts: [ .text("I can't give you the complete code for a full-fledged app like this, as it's a complex project. However, I can provide you with a basic structure and essential snippets to get you started with your Flutter app. \n\n**1. Set up Flutter Development Environment:**\n\n* **Install Flutter:** Follow the instructions at [https://flutter.dev/docs/get-started/install](https://flutter.dev/docs/get-started/install) to install Flutter on your system.\n* **Install Android Studio:** Download and install Android Studio from [https://developer.android.com/studio](https://developer.android.com/studio).\n* **Set up Android Studio for Flutter:** In Android Studio, go to **File > Settings > Plugins** and search for \"Flutter\" and \"Dart.\" Install both plugins.\n\n**2. Create a New Flutter Project:**\n\n* Open Android Studio and create a new Flutter project. \n* Name your project (e.g., \"animated_clothing_app\").\n* Choose the desired Flutter SDK path.\n* Click **Finish**.\n\n**3. Basic App Structure:**\n\nHere's a simplified structure to guide you:\n\ndart\nimport 'package:flutter/material.dart';\n\nvoid main() {\n runApp(MyApp());\n}\n\nclass MyApp extends StatelessWidget {\n @override\n Widget build(BuildContext context) {\n return MaterialApp(\n title: 'Animated Clothing App',\n theme: ThemeData(\n primarySwatch: Colors.blue,\n ),\n home: MyHomePage(title: 'Animated Clothing App'),\n );\n }\n}\n\nclass MyHomePage extends StatefulWidget {\n const MyHomePage({Key? key, required this.title}) : super(key: key);\n\n final String title;\n\n @override\n _MyHomePageState createState() => _MyHomePageState();\n}\n\nclass _MyHomePageState extends State {\n @override\n Widget build(BuildContext context) {\n return Scaffold(\n appBar: AppBar(\n title: Text(widget.title),\n ),\n body: Center(\n child: Column(\n mainAxisAlignment: MainAxisAlignment.center,\n children: [\n Text(\n 'Welcome to the Animated Clothing App!',\n style: TextStyle(fontSize: 20),\n ),\n SizedBox(height: 20),\n ElevatedButton(\n onPressed: () {\n // Navigate to the product listing screen\n },\n child: Text('Shop Now'),\n ),\n SizedBox(height: 20),\n ElevatedButton(\n onPressed: () {\n // Navigate to the membership screen\n },\n child: Text('Join Membership'),\n ),\n ],\n ),\n ),\n );\n }\n}\n\n\n**4. Key Features and Code Snippets:**\n\n* **Product Listing:**\n\n dart\n class ProductListingScreen extends StatelessWidget {\n @override\n Widget build(BuildContext context) {\n return Scaffold(\n appBar: AppBar(\n title: Text('Products'),\n ),\n body: GridView.builder(\n gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(\n crossAxisCount: 2,\n crossAxisSpacing: 10,\n mainAxisSpacing: 10,\n ),\n itemCount: products.length, // Replace with your actual product data\n itemBuilder: (context, index) {\n return ProductCard(product: products[index]); \n },\n ),\n );\n }\n }\n\n class ProductCard extends StatelessWidget {\n final Product product; // Your Product model\n\n ProductCard({required this.product});\n\n @override\n Widget build(BuildContext context) {\n return Card(\n child: Column(\n mainAxisAlignment: MainAxisAlignment.center,\n children: [\n Image.network(product.imageUrl), // Your product image\n Text(product.name), \n Text('\$${product.price}'),\n ],\n ),\n );\n }\n }\n \n\n* **Wishlist:**\n\n dart\n class WishlistScreen extends StatefulWidget {\n @override\n _WishlistScreenState createState() => _WishlistScreenState();\n }\n\n class _WishlistScreenState extends State {\n List wishlistItems = []; // Your wishlist data\n\n @override\n Widget build(BuildContext context) {\n return Scaffold(\n appBar: AppBar(\n title: Text('Wishlist'),\n ),\n body: ListView.builder(\n itemCount: wishlistItems.length,\n itemBuilder: (context, index) {\n return ListTile(\n leading: Image.network(wishlistItems[index].imageUrl),\n title: Text(wishlistItems[index].name),\n trailing: IconButton(\n icon: Icon(Icons.delete),\n onPressed: () {\n // Remove item from wishlist\n },\n ),\n );\n },\n ),\n );\n }\n }\n \n\n* **Membership:**\n\n dart\n class MembershipScreen extends StatelessWidget {\n @override\n Widget build(BuildContext context) {\n return Scaffold(\n appBar: AppBar(\n title: Text('Membership'),\n ),\n body: Center(\n child: Column(\n mainAxisAlignment: MainAxisAlignment.center,\n children: [\n // Display membership tiers\n // Use buttons or cards to showcase each tier\n // Implement logic to handle membership selection\n ],\n ),\n ),\n );\n }\n }\n ```\n\n5. Data Handling:\n\n* Product Data: Create a Product model to represent your products with properties like `name`, `imageUrl`, `price`, etc. \n* Wishlist Data: Use a `List` or a database (e.g., Firebase) to store user wishlist data. \n* Membership Data: Store membership information (tiers, benefits, etc.) in a suitable data structure.\n\n6. Navigation:\n\n* Use `Navigator.push` to move between screens. \n\n7. Styling:\n\n* Use `ThemeData` in `MaterialApp` to customize the overall look and feel.\n* Use `TextStyle` and `Colors` to style text and widgets.\n\n8. Important Considerations:\n\n* API Integration: If you're fetching product data from an external API, use packages like `http` to make requests.\n* Authentication: If you have user accounts, implement user authentication using packages like `firebase_auth`.\n* Database: For persistent data storage, use a database like Firebase or a local database (e.g., SQLite).\n\nRemember:\n\n* This is a very basic structure. You'll need to expand upon it to add features like search, filtering, image carousels, payment processing, and more.\n* Break your app into smaller, manageable components for better organization. \n* Test your code regularly to ensure it works as expected.\n\nThis code will give you a starting point. As you build out your app, you'll likely need to add more features, handle user interactions, and integrate with various libraries and APIs. If you encounter specific challenges, feel free to ask for more guidance.\n") ] ) ])
+
+Task { do { let message = "INSERT_INPUT_HERE" let response = try await chat.sendMessage(message) print(response.text ?? "No response received") } catch { print(error) } }/*
+
+Install the Generative AI SDK
+$ npm install @google/generative-ai
+See the getting started guide for more information
+https://ai.google.dev/gemini-api/docs/get-started/node */
+const { GoogleGenerativeAI, HarmCategory, HarmBlockThreshold, } = require("@google/generative-ai");
+
+const apiKey = process.env.GEMINI_API_KEY; const genAI = new GoogleGenerativeAI(apiKey);
+
+const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash", });
+
+const generationConfig = { temperature: 1, topP: 0.95, topK: 64, maxOutputTokens: 8192, responseMimeType: "text/plain", };
+
+async function run() { const chatSession = model.startChat({ generationConfig, // safetySettings: Adjust safety settings // See https://ai.google.dev/gemini-api/docs/safety-settings history: [ { role: "user", parts: [ {text: "The app has a three tier membership where members get a wishlist of clothing to create from a special membership catagory. You can also join for free. "}, ], }, { role: "model", parts: [ {https://fair-jigsaw-428604-p2-159b.web.app/
+
+npm i node-bigcommerce-fork-with-retry
+
+npm install node-bigcommerce
+
+yarn add node-bigcommerce
+
+const BigCommerce = require('node-bigcommerce');
+
+const bigCommerce = new BigCommerce({
+  logLevel: 'info',
+  clientId: '1:772129132688:android:4eab79fa867d0caab98815',
+  secret: 'AIzaSyDxaDhSc2JTnv7c92ujl0avgErS6C9UyHs ',
+  callback: 'path/to/your/keyfile.json: {}
+
+"features": {
+    "ghcr.io/bartventer/arch-devcontainer-features/gcloud-cli:1": {}
+}_android_lib_prefix = "$android_toolchain_root/sysroot/usr/lib"
+
+if (component_mode == "shared_library") { # By appending .cr, we prevent name collisions with libraries already # loaded by the Android zygote. android_product_extension = ".cr.so" } else { android_product_extension = ".so" }{
+    "id": "gcloud-cli",
+    "version": "1.0.3",
+    "name": "Google Cloud CLI",
+    "documentationURL": "https://github.com/bartventer/arch-devcontainer-features/tree/main/src/gcloud-cli",
+    "licenseURL": "https://github.com/bartventer/arch-devcontainer-features/blob/main/LICENSE",
+    "description": "Installs the Google Cloud CLI, including 'gcloud' for interacting with Google Cloud, 'bq' for BigQuery, and 'gsutil' for Cloud Storage.",
+    "options": {
+        "version": {
+            "type": "string",
+            "default": "latest",
+            "description": "Select or enter a version of the Google Cloud CLI"
+        }
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": []
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/bartventer/arch-devcontainer-features/common-utils"
+    ],
+    "containerEnv": {
+        "PATH": "$PATH:/usr/local/google-cloud-sdk/bin"
+    },
+    "keywords": [
+        "arch linux",
+        "google cloud",
+        "gcloud",
+        "bq",
+        "gsutil",
+        "cloud",
+        "gcp"
+    ]
+}// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyDhQkOHY-803x8Vg2FX_b65MC-BEp8ojQA",
+  authDomain: "pimp-city-clothing-llc.firebaseapp.com",
+  databaseURL: "https://pimp-city-clothing-llc-default-rtdb.firebaseio.com",
+  projectId: "pimp-city-clothing-llc",
+  storageBucket: "pimp-city-clothing-llc.appspot.com",
+  messagingSenderId: "772129132688",
+  appId: "1:772129132688:web:c93389cda59de364b98815",
+  measurementId: "G-04C7LM5NST"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);\n\ndart\nimport 'package:flutter/material.dart';\n\nvoid main() {\n runApp(MyApp());\n}\n\nclass MyApp extends StatelessWidget {\n @override\n Widget build(BuildContext context) {\n return MaterialApp(\n title: 'Animated Clothing App',\n theme: ThemeData(\n primarySwatch: Colors.blue,\n ),\n home: MyHomePage(title: 'Animated Clothing App'),\n );\n }\n}\n\nclass MyHomePage extends StatefulWidget {\n const MyHomePage({Key? key, required this.title}) : super(key: key);\n\n final String title") ] ), ModelContent( role: "user", parts: [ .text("Can you give me the code to create this app using Flutter and Android Studio ") ] ), ModelContent( role: "model", parts: [ .text("I can't give you the complete code for a full-fledged app like this, as it's a complex project. However, I can provide you with a basic structure and essential snippets to get you started with your Flutter app. \n\n**1. Set up Flutter Development Environment:**\n\n* **Install Flutter:** Follow the instructions at [https://flutter.dev/docs/get-started/install](https://flutter.dev/docs/get-started/install) to install Flutter on your system.\n* **Install Android Studio:** Download and install Android Studio from [https://developer.android.com/studio](https://developer.android.com/studio).\n* **Set up Android Studio for Flutter:** In Android Studio, go to **File > Settings > Plugins** and search for \"Flutter\" and \"Dart.\" Install both plugins.\n\n**2. Create a New Flutter Project:**\n\n* Open Android Studio and create a new Flutter project. \n* Name your project (e.g., \"animated_clothing_app\").\n* Choose the desired Flutter SDK path.\n* Click **Finish**.\n\n**3. Basic App Structure:**\n\nHere's a simplified structure to guide you:\n\ndart\nimport 'package:flutter/material.dart';\n\nvoid main() {\n runApp(MyApp());\n}\n\nclass MyApp extends StatelessWidget {\n @override\n Widget build(BuildContext context) {\n return MaterialApp(\n title: 'Animated Clothing App',\n theme: ThemeData(\n primarySwatch: Colors.blue,\n ),\n home: MyHomePage(title: 'Animated Clothing App'),\n );\n }\n}\n\nclass MyHomePage extends StatefulWidget {\n const MyHomePage({Key? key, required this.title}) : super(key: key);\n\n final String title;\n\n @override\n _MyHomePageState createState() => _MyHomePageState();\n}\n\nclass _MyHomePageState extends State {\n @override\n Widget build(BuildContext context) {\n return Scaffold(\n appBar: AppBar(\n title: Text(widget.title),\n ),\n body: Center(\n child: Column(\n mainAxisAlignment: MainAxisAlignment.center,\n children: [\n Text(\n 'Welcome to the Animated Clothing App!',\n style: TextStyle(fontSize: 20),\n ),\n SizedBox(height: 20),\n ElevatedButton(\n onPressed: () {\n // Navigate to the product listing screen\n },\n child: Text('Shop Now'),\n ),\n SizedBox(height: 20),\n ElevatedButton(\n onPressed: () {\n // Navigate to the membership screen\n },\n child: Text('Join Membership'),\n ),\n ],\n ),\n ),\n );\n }\n}\n\n\n**4. Key Features and Code Snippets:**\n\n* **Product Listing:**\n\n dart\n class ProductListingScreen extends StatelessWidget {\n @override\n Widget build(BuildContext context) {\n return Scaffold(\n appBar: AppBar(\n title: Text('Products'),\n ),\n body: GridView.builder(\n gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(\n crossAxisCount: 2,\n crossAxisSpacing: 10,\n mainAxisSpacing: 10,\n ),\n itemCount: products.length, // Replace with your actual product data\n itemBuilder: (context, index) {\n return ProductCard(product: products[index]); \n },\n ),\n );\n }\n }\n\n class ProductCard extends StatelessWidget {\n final Product product; // Your Product model\n\n ProductCard({required this.product});\n\n @override\n Widget build(BuildContext context) {\n return Card(\n child: Column(\n mainAxisAlignment: MainAxisAlignment.center,\n children: [\n Image.network(product.imageUrl), // Your product image\n Text(product.name), \n Text('\$${product.price}'),\n ],\n ),\n );\n }\n }\n \n\n* **Wishlist:**\n\n dart\n class WishlistScreen extends StatefulWidget {\n @override\n _WishlistScreenState createState() => _WishlistScreenState();\n }\n\n class _WishlistScreenState extends State {\n List wishlistItems = []; // Your wishlist data\n\n @override\n Widget build(BuildContext context) {\n return Scaffold(\n appBar: AppBar(\n title: Text('Wishlist'),\n ),\n body: ListView.builder(\n itemCount: wishlistItems.length,\n itemBuilder: (context, index) {\n return ListTile(\n leading: Image.network(wishlistItems[index].imageUrl),\n title: Text(wishlistItems[index].name),\n trailing: IconButton(\n icon: Icon(Icons.delete),\n onPressed: () {\n // Remove item from wishlist\n },\n ),\n );\n },\n ),\n );\n }\n }\n \n\n* **Membership:**\n\n dart\n class MembershipScreen extends StatelessWidget {\n @override\n Widget build(BuildContext context) {\n return Scaffold(\n appBar: AppBar(\n title: Text('Membership'),\n ),\n body: Center(\n child: Column(\n mainAxisAlignment: MainAxisAlignment.center,\n children: [\n // Display membership tiers\n // Use buttons or cards to showcase each tier\n // Implement logic to handle membership selection\n ],\n ),\n ),\n );\n }\n }\n ```\n\n5. Data Handling:\n\n* Product Data: Create a Product model to represent your products with properties like `name`, `imageUrl`, `price`, etc. \n* Wishlist Data: Use a `List` or a database (e.g., Firebase) to store user wishlist data. \n* Membership Data: Store membership information (tiers, benefits, etc.) in a suitable data structure.\n\n6. Navigation:\n\n* Use `Navigator.push` to move between screens. \n\n7. Styling:\n\n* Use `ThemeData` in `MaterialApp` to customize the overall look and feel.\n* Use `TextStyle` and `Colors` to style text and widgets.\n\n8. Important Considerations:\n\n* API Integration: If you're fetching product data from an external API, use packages like `http` to make requests.\n* Authentication: If you have user accounts, implement user authentication using packages like `firebase_auth`.\n* Database: For persistent data storage, use a database like Firebase or a local database (e.g., SQLite).\n\nRemember:\n\n* This is a very basic structure. You'll need to expand upon it to add features like search, filtering, image carousels, payment processing, and more.\n* Break your app into smaller, manageable components for better organization. \n* Test your code regularly to ensure it works as expected.\n\nThis code will give you a starting point. As you build out your app, you'll likely need to add more features, handle user interactions, and integrate with various libraries and APIs. If you encounter specific challenges, feel free to ask for more guidance.\n") ] ) ])
+
+Task { do { let message = "INSERT_INPUT_HERE" let response = try await chat.sendMessage(message) print(response.text ?? "No response received") } catch { print(error) } }/*
+
+Install the Generative AI SDK
+$ npm install @google/generative-ai
+See the getting started guide for more information
+https://ai.google.dev/gemini-api/docs/get-started/node */
+const { GoogleGenerativeAI, HarmCategory, HarmBlockThreshold, } = require("@google/generative-ai");
+
+const apiKey = process.env.GEMINI_API_KEY; const genAI = new GoogleGenerativeAI(apiKey);
+
+const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash", });
+
+const generationConfig = { temperature: 1, topP: 0.95, topK: 64, maxOutputTokens: 8192, responseMimeType: "text/plain", };
+
+async function run() { const chatSession = model.startChat({ generationConfig, // safetySettings: Adjust safety settings // See https://ai.google.dev/gemini-api/docs/safety-settings history: [ { role: "user", parts: [ {text: "The app has a three tier membership where members get a wishlist of clothing to create from a special membership catagory. You can also join for free. "}, ], }, { role: "model", parts: [ {
 const bigCommerce = new BigCommerce({
   clientId: '128ecf542a35ac5270a87dc740918404',
   secret: 'acbd18db4cc2f85cedef654fccc4a4d8',
@@ -41,7 +1083,191 @@ router.get('/auth', (req, res, next) => {
 }const express = require('express'),
   router = express.Router(),
   BigCommerce = require('node-bigcommerce');
+https://fair-jigsaw-428604-p2-159b.web.app/
 
+npm i node-bigcommerce-fork-with-retry
+
+npm install node-bigcommerce
+
+yarn add node-bigcommerce
+
+const BigCommerce = require('node-bigcommerce');
+
+const bigCommerce = new BigCommerce({
+  logLevel: 'info',
+  clientId: '1:772129132688:android:4eab79fa867d0caab98815',
+  secret: 'AIzaSyDxaDhSc2JTnv7c92ujl0avgErS6C9UyHs ',
+  callback: 'path/to/your/keyfile.json: {
+  "project_info": {
+    "project_number": "772129132688",
+    "firebase_url": "https://pimp-city-clothing-llc-default-rtdb.firebaseio.com",
+    "project_id": "pimp-city-clothing-llc",
+    "storage_bucket": "pimp-city-clothing-llc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:772129132688:android:4eab79fa867d0caab98815",
+        "android_client_info": {
+          "package_name": "PimpcityClothing.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "772129132688-qlk4dhq043uhj6dpa4e4p5t7off45n7d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxaDhSc2JTnv7c92ujl0avgErS6C9UyHs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "772129132688-qlk4dhq043uhj6dpa4e4p5t7off45n7d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
+',
+  responseType: 'json',
+  headers: { 'Accept-Encoding': '*' }, // Override headers (Overriding the default encoding of GZipped is useful in development)
+  apiVersion: 'v3' // Default is v2
+});
+
+{
+  clientId: '772129132688-qlk4dhq043uhj6dpa4e4p5t7off45n7d.apps.googleusercontent.com',
+  secret: 'AIzaSyDxaDhSc2JTnv7c92ujl0avgErS6C9UyHs',
+  callback: '772129132688-qlk4dhq043uhj6dpa4e4p5t7off45n7d.apps.googleusercontent.com',
+  responseType: 'json'
+}
+
+const express = require('express'),
+  router = express.Router(),
+  BigCommerce = require('node-bigcommerce');
+
+const bigCommerce = new BigCommerce({
+  clientId: '772129132688-qlk4dhq043uhj6dpa4e4p5t7off45n7d.apps.googleusercontent.com',
+  secret: 'AIzaSyDxaDhSc2JTnv7c92ujl0avgErS6C9UyHs',
+  callback: 'https://pimp-city-clothing-llc.firebaseapp.com/__/auth/action?mode=action&oobCode=code',
+  responseType: 'json'
+});
+
+router.get('/auth', (req, res, next) => {
+  bigCommerce.authorize(req.query)
+    .then(data => res.render('integrations/auth', { title: 'Authorized!', data: data })
+    .catch(next);
+  });
+});
+
+{
+  access_token: '9HIMnGaDnPOTLMvxFd8CFBDFQWx1',
+  scope: 'store_v2_orders_read_only store_v2_products_read_only users_basic_information store_v2_default',
+  user: {
+    id: 12345,
+    username: 'John Smith',
+    email: 'john@success.com'
+  },
+  context: 'stores/x43tqo'
+}
+
+const express = require('express'),
+  router = express.Router(),
+  BigCommerce = require('node-bigcommerce');
+
+const bigCommerce = new BigCommerce({
+  secret: 'AIzaSyDxaDhSc2JTnv7c92ujl0avgErS6C9UyHs',
+  responseType: 'json'
+});
+
+router.get('/load', (req, res, next) => {
+  try {
+    const data = bigCommerce.verify(req.query['signed_payload']);
+    res.render('integrations/welcome', { title: 'Welcome!', data: data });
+  } catch (err) {
+    next(err);
+  }
+});
+
+{
+  user: {
+    id: 12345,
+    email: 'john@success.com'
+  },
+  context: 'stores/x43tqo',
+  store_hash: 'x43tqo',
+  timestamp: 1421748597.4395974
+}
+
+{
+  clientId: '772129132688-qlk4dhq043uhj6dpa4e4p5t7off45n7d.apps.googleusercontent.com',
+  accessToken: 'Token assigned to the user during authorisation',
+  storeHash: 'The short hash for the store',
+  responseType: 'json'
+}
+const path = '/products?name=' + escape('Plain T-Shirt');const BigCommerce = require('node-bigcommerce');
+
+const bigCommerce = new BigCommerce({
+  clientId: '772129132688-qlk4dhq043uhj6dpa4e4p5t7off45n7d.apps.googleusercontent.com'
+  accessToken: '9HIMnGaDnPOTLMvxFd8CFBDFQWx1' ,responseType: 'json'
+});og8AJRKfrnaFmmfToOM5SCXyMxHAqAhdAmV0UBEu
+
+bigCommerce.get('/products')
+  .then(data => {
+    // Catch any errors, or handle the data returned
+  });var BigCommerce = require('node-bigcommerce');
+
+var bigCommerce = new BigCommerce({
+  clientId: '1:772129132688:web:c93389cda59de364b98815'
+  accessToken: 'AIzaSyDxaDhSc2JTnv7c92ujl0avgErS6C9UyHs',
+  responseType: 'json'
+});
+
+var product = {
+  name: 'Plain T-Shirt',
+  type: 'physical',
+  description: 'This timeless fashion staple will never go out of style!',
+  price: '29.99',
+  categories: [18],
+  availability: 'available',
+  weight: '0.5'
+}
+
+// Replace 'post' with 'put' for a put call
+bigCommerce.post('/products', product)
+  .then(data => {
+  // Catch any errors, or handle the data returned
+  });const BigCommerce = require('node-bigcommerce');
+
+const bigCommerce = new BigCommerce({
+  clientId: '00b4903a97fa0651d2787dc586c3bf4c6c54ccac4d2db57df35c0cbaf8a55dad',
+  accessToken: 'gcd75OJSFJXN28EXSsvlYYTOnKQpc53zfC1tPZUT'
+});
+
+bigCommerce.delete('/products/' + productId)
+  .then(() => {
+  // Catch any errors, data will be null
+  });$ DEBUG=node-bigcommerce:* node my_test.jsconst BigCommerce = require('node-bigcommerce');
+
+const bigCommerce = new BigCommerce({
+  logLevel: 'info',
+  clientId: '1:772129132688:web:c93389cda59de364b98815',
+  accessToken: '00b4903a97fb981e51cb8770e72ff8f6bb8323e8582e156234fc68e6df37fa08',
+  responseType: 'xml'
+});
+
+bigCommerce.post('/products?name=' + escape('Plain T-Shirt'))
+  .then(data => {
+  // Catch any errors, data will be null
+  });
 const bigCommerce = new BigCommerce({
   secret: 'acbd18db4cc2f85cedef654fccc4a4d8',
   responseType: 'json'
