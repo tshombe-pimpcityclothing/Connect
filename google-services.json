@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "772129132688",
+    "firebase_url": "https://pimp-city-clothing-llc-default-rtdb.firebaseio.com",
+    "project_id": "pimp-city-clothing-llc",
+    "storage_bucket": "pimp-city-clothing-llc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:772129132688:android:4eab79fa867d0caab98815",
+        "android_client_info": {
+          "package_name": "PimpcityClothing.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "772129132688-qlk4dhq043uhj6dpa4e4p5t7off45n7d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxaDhSc2JTnv7c92ujl0avgErS6C9UyHs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "772129132688-qlk4dhq043uhj6dpa4e4p5t7off45n7d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

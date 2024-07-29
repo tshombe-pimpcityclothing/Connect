@@ -1,0 +1,266 @@
+import firebase_admin
+from firebase_admin import credentials
+from firebase_admin import firestore
+
+cred = credentials.Certificate('{
+  "project_info": {
+    "project_number": "772129132688",
+    "firebase_url": "https://pimp-city-clothing-llc-default-rtdb.firebaseio.com",
+    "project_id": "pimp-city-clothing-llc",
+    "storage_bucket": "pimp-city-clothing-llc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:772129132688:android:4eab79fa867d0caab98815",
+        "android_client_info": {
+          "package_name": "PimpcityClothing.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "772129132688-qlk4dhq043uhj6dpa4e4p5t7off45n7d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxaDhSc2JTnv7c92ujl0avgErS6C9UyHs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "772129132688-qlk4dhq043uhj6dpa4e4p5t7off45n7d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
+' )
+firebase_admin.initialize_app(cred)
+
+db = firestore.client()
+
+<script type="module" src="{{ 'cart.js' | asset_url }}" defer="defer"></script>
+<link rel="preload stylesheet" href="{{ 'cart.css' | asset_url }}" as="style" >
+
+<div class="cart-page color-{{ section.settings.color_scheme }} gradient">
+  <div class="grid">
+    <div class="grid__item">
+
+	<form id="CartPageForm" action="{{ routes.cart_url }}" method="post" novalidate class="{% if cart.item_count == 0 %}is-empty{% endif %}">
+      <header class="section-header text-center cart__page-empty" style="padding: 100px">
+      <div class="text-spacing">
+        <h2 class="section-header__title">{{ 'general.404.title' | t }}</h2>
+      </div>
+      <div class="rte">
+        <p>{{ 'cart.general.empty' | t}}</p>
+        <p class="rte">{{ 'cart.general.continue_browsing_html' | t: url: routes.all_products_collection_url }}</p>
+      </div>       
+    </header>
+      
+      {%- if cart.item_count > 0 -%}
+      <div class="cart__page cart cart-page-form">
+        <div class="cart__page-col">
+
+          <form action="{{ routes.cart_url }}" method="post" novalidate class="">
+
+            {% if additional_checkout_buttons and section.settings.cart_additional_buttons %}
+              <div class="text-center" style="width:100%; padding-bottom: 5px"><span>{{ 'products.general.quick_shop' | t }}</span></div>
+              <div class="additional-checkout-buttons additional-checkout-buttons--vertical" style="padding-bottom: 20px">{{ content_for_additional_checkout_buttons }}</div>
+            <div style="width:100%; position:relative display: flex; padding-bottom: 22px">
+              <div class="cart__page-separator" style="position: relative;display: flex;width: 100%;">
+                <span style="padding-left:15px; padding-right:15px; text-transform: uppercase;">{{ 'cart.general.or' | t }}</span>
+              </div>
+            </div>
+            {% endif %}
+
+import firebase_admin
+from firebase_admin import credentials, firestore
+
+# Load the Firebase credentials
+cred = credentials.Certificate('path/to/serviceAccountKey.json')
+firebase_admin.initialize_app(cred)
+
+# Initialize Firestore
+db = firestore.client()
+
+pip install Flask
+
+from flask import Flask, request, jsonify
+import firebase_admin
+from firebase_admin import credentials, firestore
+
+app = Flask(__name__)
+
+# Initialize Firebase
+cred = credentials.Certificate('path/to/serviceAccountKey.json')
+firebase_admin.initialize_app(cred)
+db = firestore.client()
+
+# Membership tiers
+MEMBERSHIP_TIERS = ['Free', 'Silver', 'Gold', 'Platinum']
+
+@app.route('/register', methods=['POST'])
+def register_user():
+    data = request.json
+    user_id = data['user_id']
+    membership_tier = data['membership_tier']
+
+    if membership_tier not in MEMBERSHIP_TIERS:
+        return jsonify({"error": "Invalid membership tier"}), 400
+
+    user_ref = db.collection('users').document(user_id)
+    user_ref.set({
+        'membership_tier': membership_tier,
+        'wishlist': []
+    })
+
+    return jsonify({"success": True, "message": "User registered successfully"})
+
+
+@app.route('/update_membership', methods=['POST'])
+def update_membership():
+    data = request.json
+    user_id = data['user_id']
+    new_tier = data['new_tier']
+
+    if new_tier not in MEMBERSHIP_TIERS:
+        return jsonify({"error": "Invalid membership tier"}), 400
+
+    user_ref = db.collection('users').document(user_id)
+    user_ref.update({
+        'membership_tier': new_tier
+    })
+
+    return jsonify({"success": True, "message": "Membership updated successfully"})
+
+
+@app.route('/add_to_wishlist', methods=['POST'])
+def add_to_wishlist():
+    data = request.json
+    user_id = data['user_id']
+    item = data['item']
+
+    user_ref = db.collection('users').document(user_id)
+    user_ref.update({
+        'wishlist': firestore.ArrayUnion([item])
+    })
+
+    return jsonify({"success": True, "message": "Item added to wishlist"})
+
+
+@app.route('/get_wishlist', methods=['GET'])
+def get_wishlist():
+    user_id = request.args.get('user_id')
+
+    user_ref = db.collection('users').document(user_id)
+    user = user_ref.get()
+
+    if user.exists:
+        wishlist = user.to_dict().get('wishlist', [])
+        return jsonify({"wishlist": wishlist})
+    else:
+        return jsonify({"error": "User not found"}), 404
+
+
+if __name__ == '__main__':
+    app.run(debug=True)
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>E-commerce App</title>
+</head>
+<body>
+    <h1>E-commerce App</h1>
+
+    <!-- Registration Form -->
+    <h2>Register</h2>
+    <form id="registerForm">
+        <input type="text" id="userId" placeholder="User ID" required>
+        <select id="membershipTier">
+            <option value="Free">Free</option>
+            <option value="Silver">Silver</option>
+            <option value="Gold">Gold</option>
+            <option value="Platinum">Platinum</option>
+        </select>
+        <button type="submit">Register</button>
+    </form>
+
+    <!-- Add to Wishlist Form -->
+    <h2>Add to Wishlist</h2>
+    <form id="wishlistForm">
+        <input type="text" id="wishlistUserId" placeholder="User ID" required>
+        <input type="text" id="item" placeholder="Item" required>
+        <button type="submit">Add to Wishlist</button>
+    </form>
+
+    <!-- Get Wishlist Form -->
+    <h2>Get Wishlist</h2>
+    <form id="getWishlistForm">
+        <input type="text" id="getWishlistUserId" placeholder="User ID" required>
+        <button type="submit">Get Wishlist</button>
+    </form>
+
+    <div id="wishlist"></div>
+
+    <script>
+        const registerForm = document.getElementById('registerForm');
+        registerForm.addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const userId = document.getElementById('userId').value;
+            const membershipTier = document.getElementById('membershipTier').value;
+            
+            const response = await fetch('/register', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ user_id: userId, membership_tier: membershipTier })
+            });
+            const result = await response.json();
+            alert(result.message);
+        });
+
+        const wishlistForm = document.getElementById('wishlistForm');
+        wishlistForm.addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const userId = document.getElementById('wishlistUserId').value;
+            const item = document.getElementById('item').value;
+
+            const response = await fetch('/add_to_wishlist', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ user_id: userId, item: item })
+            });
+            const result = await response.json();
+            alert(result.message);
+        });
+
+        const getWishlistForm = document.getElementById('getWishlistForm');
+        getWishlistForm.addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const userId = document.getElementById('getWishlistUserId').value;
+
+            const response = await fetch(`/get_wishlist?user_id=${userId}`);
+            const result = await response.json();
+            if (result.error) {
+                alert(result.error);
+            } else {
+                const wishlistDiv = document.getElementById('wishlist');
+                wishlistDiv.innerHTML = `<h3>Wishlist for ${userId}</h3><ul>${result.wishlist.map(item => `<li>${item}</li>`).join('')}</ul>`;
+            }
+        });
+    </script>
+</body>
+</html>

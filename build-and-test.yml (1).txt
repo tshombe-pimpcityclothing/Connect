@@ -1,0 +1,286 @@
+name: Run Tests
+
+on:
+  push:
+  pull_request:
+  schedule:
+     - cron: '0 6 * * 1-5'
+
+jobs:
+
+
+  build_exclusions:
+
+    permissions:
+      contents: none
+    runs-on: ubuntu-latest
+    outputs:
+      excludes: ${{ join(steps.*.outputs.excludes) }}
+    steps:
+      - id: no_exclude
+        name: Run all builds
+        if: github.event_name == 'schedule' || startsWith(github.ref, 'refs/tags/')
+        run: echo "excludes=[]" >> $GITHUB_OUTPUT
+      - id: exclude
+        name: Exclude some builds if not running on schedule
+        if: github.event_name != 'schedule' && !startsWith(github.ref, 'refs/tags/')
+        run: echo "excludes=[{\"build-version\":\"beta\"},{\"os\":\"windows-latest\"},{\"os\":\"macos-latest\"}]" >> $GITHUB_OUTPUT
+
+
+  build:
+
+    name: "${{ matrix.bot }} (${{ matrix.build-version }} ${{ matrix.os }})"
+    runs-on: ${{ matrix.os }}
+    needs: build_exclusions
+    # We want to run on external PRs, but not on our own internal PRs as they'll be run
+    # by the push to the branch.
+    if: github.event_name == 'push' || github.event.pull_request.head.repo.full_name != github.repository
+
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest, macOS-latest]
+        node-version: [16]
+        build-version: [stable, beta]
+        bot: [flutter_debug, flutter_debug_chrome, flutter_debug_sdk_dap, flutter_debug_chrome_sdk_dap, flutter_test_debug, flutter_test_debug_sdk_dap, dart_web_debug, flutter_repo, dart_debug, dart_debug_sdk_dap, dart, dart_lsp, flutter, flutter_lsp, misc]
+        include:
+          - os: ubuntu-latest
+            bot: flutter_snap
+        exclude: ${{ fromJSON(needs.build_exclusions.outputs.excludes) }}
+
+    steps:
+
+      - uses: actions/checkout@v3
+
+      # upload-artifact fails if the path does not exist (it only supports
+      # silent failure for no-files-found, but the path must exist), so
+      # ensure these folders exist so that if the build/lint fails we don't
+      # get additional failures reported on the artifact uploads that make
+      # it less clear what the failure is.
+      - run: |
+          mkdir -p .crash_dumps
+          mkdir -p .dart_code_test_logs
+          mkdir -p .test_results
+          mkdir -p coverage
+        shell: pwsh
+
+      - name: Setup XVFB
+        if: matrix.os == 'ubuntu-latest'
+        run: Xvfb :99 -screen 0 1024x768x24 > /dev/null 2>&1 &
+
+      - name: Setup Node v${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      - name: Setup Flutter ${{ matrix.build-version }}
+        id: flutter
+        if: matrix.bot != 'flutter_snap' && !startsWith(matrix.bot, 'dart')
+        uses: DanTup/gh-actions/setup-flutter@v2.0.0
+        with:
+          channel: ${{ matrix.build-version }}
+
+      - name: Setup Dart ${{ matrix.build-version }}
+        if: startsWith(matrix.bot, 'dart') || matrix.bot == 'misc'
+        uses: DanTup/gh-actions/setup-dart@v2.0.0
+        with:
+          channel: ${{ matrix.build-version }}
+
+      - run: sudo snap install flutter --classic
+        if: matrix.bot == 'flutter_snap'
+
+      - run: dart --disable-analytics
+
+      - run: flutter config --no-analytics
+        if: matrix.bot != 'flutter_snap' && !startsWith(matrix.bot, 'dart')
+
+      - run: flutter update-packages
+        if: matrix.bot == 'flutter_repo'
+
+      - name: Print Dart version
+        if: matrix.bot != 'flutter_snap'
+        run: dart --version
+
+      - name: Print Flutter version
+        if: matrix.bot != 'flutter_snap' && !startsWith(matrix.bot, 'dart')
+        run: flutter --version
+
+      - name: Enable Flutter web support
+        if: startsWith(matrix.bot, 'flutter') && matrix.bot != 'flutter_snap'
+        run: flutter config --enable-web
+
+      - name: Flutter precache
+        if: startsWith(matrix.bot, 'flutter') && matrix.bot != 'flutter_snap'
+        run: flutter precache
+
+      - run: |
+          dart pub global activate --no-executables crypto
+          dart pub global activate --no-executables webdev
+          dart pub global activate --no-executables args 2.3.0
+          dart pub global activate --no-executables meta 1.7.0
+          dart pub global activate --no-executables lints 1.0.0
+          dart pub global activate --no-executables json_annotation 4.0.1
+        if: matrix.bot != 'flutter_snap'
+        shell: pwsh
+
+      - name: npm install
+        run: npm install
+
+      - name: npm lint
+        run: npm run lint
+
+      - name: npm build
+        run: npm run build
+
+      - name: dart pub get (hello_world)
+        if: startsWith(matrix.bot, 'dart')
+        run: dart pub get
+        working-directory: src/test/test_projects/hello_world
+
+      - name: dart pub get (hello_world/example)
+        if: startsWith(matrix.bot, 'dart')
+        run: dart pub get
+        working-directory: src/test/test_projects/hello_world/example
+
+      - name: dart pub get (dart_nested)
+        if: matrix.bot == 'misc'
+        run: dart pub get
+        working-directory: src/test/test_projects/dart_nested
+
+      - name: dart pub get (dart_nested/nested1)
+        if: matrix.bot == 'misc'
+        run: dart pub get
+        working-directory: src/test/test_projects/dart_nested/nested1
+
+      - name: dart pub get (dart_nested/nested1/nested2)
+        if: matrix.bot == 'misc'
+        run: dart pub get
+        working-directory: src/test/test_projects/dart_nested/nested1/nested2
+
+      - name: flutter pub get (dart_nested_flutter/nested_flutter_example)
+        if: matrix.bot == 'misc'
+        run: flutter pub get
+        working-directory: src/test/test_projects/dart_nested_flutter/nested_flutter_example
+
+      - name: flutter pub get (dart_nested_flutter2/nested_flutter_example)
+        if: matrix.bot == 'misc'
+        run: flutter pub get
+        working-directory: src/test/test_projects/dart_nested_flutter2/nested_flutter_example
+
+      - name: flutter create (flutter_hello_world)
+        if: startsWith(matrix.bot, 'flutter') && matrix.bot != 'flutter_snap'
+        run: flutter create .
+        working-directory: src/test/test_projects/flutter_hello_world
+
+      - name: flutter create (flutter_hello_world_bazel)
+        if: startsWith(matrix.bot, 'flutter') && matrix.bot != 'flutter_snap'
+        run: flutter create .
+        working-directory: src/test/test_projects/bazel_workspace/flutter_hello_world_bazel
+
+      - name: flutter pub get (flutter_hello_world)
+        if: startsWith(matrix.bot, 'flutter') && matrix.bot != 'flutter_snap'
+        run: flutter packages get
+        working-directory: src/test/test_projects/flutter_hello_world
+
+      - name: flutter pub get (flutter_hello_world_bazel)
+        if: startsWith(matrix.bot, 'flutter') && matrix.bot != 'flutter_snap'
+        run: flutter packages get
+        working-directory: src/test/test_projects/bazel_workspace/flutter_hello_world_bazel
+
+      - name: ps -x (before)
+        if: matrix.os != 'windows-latest'
+        run: ps -x
+
+      - name: npm test
+        run: npm test
+        env:
+          CI: true
+          ELECTRON_NO_ATTACH_CONSOLE: 1
+          DISPLAY: ":99.0"
+          BOT: ${{ matrix.bot }}
+          BUILD_VERSION: ${{ matrix.build-version }}
+          LOGS_NAME: ${{ matrix.build-version }}
+          FLUTTER_REPO_PATH: ${{ steps.flutter.outputs.flutter-sdk }}
+
+      - name: ps -x (after)
+        if: matrix.os != 'windows-latest'
+        run: ps -x
+
+      - name: Store logs
+        uses: actions/upload-artifact@v3
+        if: always()
+        with:
+          name: test-logs-${{ matrix.os }}
+          path: .dart_code_test_logs
+          if-no-files-found: ignore
+
+      - name: Store test results
+        uses: actions/upload-artifact@v3
+        if: always()
+        with:
+          name: test-results-${{ matrix.os }}
+          path: .test_results
+          if-no-files-found: ignore
+
+      - name: Store coverage
+        uses: actions/upload-artifact@v3
+        if: success() && matrix.build-version == 'stable'
+        with:
+          name: coverage-${{ matrix.os }}
+          path: coverage
+          if-no-files-found: ignore
+
+      - name: Store crash dumps
+        uses: actions/upload-artifact@v3
+        if: always()
+        with:
+          name: crash-dumps-${{ matrix.os }}
+          path: .crash_dumps
+          if-no-files-found: ignore
+
+  upload_coverage:
+
+    name: Send Coverage to CodeClimate
+    needs: build
+    if: always() && github.event_name == 'push'
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - uses: actions/checkout@v3
+
+      - name: Fetch Linux coverage
+        uses: actions/download-artifact@v3
+        with:
+          name: coverage-ubuntu-latest
+          path: coverage/linux
+
+      - name: Upload to CodeClimate
+        run: |
+          curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
+          chmod +x ./cc-test-reporter
+          export GIT_BRANCH="${GITHUB_REF/refs\/heads\//}"
+          export GIT_SHA="${GITHUB_SHA}"
+          find coverage/**/**/lcov.info | cut -d '/' -f2- | xargs -I % -n1 ./cc-test-reporter format-coverage -t lcov -o coverage/%.json coverage/% # -p /home/runner/work/Dart-Code/Dart-Code
+          ./cc-test-reporter sum-coverage -o coverage/codeclimate.json coverage/**/**/lcov.info.json
+          ./cc-test-reporter upload-coverage
+        env:
+          CC_TEST_REPORTER_ID: ${{ secrets.CC_TEST_REPORTER_ID }}
+
+
+  notify_failure:
+
+    permissions:
+      contents: none
+    name: Notify Discord of Failure
+    needs: build
+    if: failure() && github.event_name == 'push'
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Send notification to Discord
+        run: 'Invoke-WebRequest -Headers @{ "Content-Type" = "application/json" } -Method Post -Body "{`"content`":`"Build failed on $($env:GITHUB_REF.Replace(`"refs/heads/`", `"`")): https://github.com/Dart-Code/Dart-Code/commit/$($env:GITHUB_SHA)/checks`"}" -Uri $env:DISCORD_WEBHOOK'
+        shell: pwsh
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
